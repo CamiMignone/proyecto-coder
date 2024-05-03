@@ -382,6 +382,9 @@ footer {
     }
 }
 
+.enlaces ul{
+    padding: 0%;
+}
 
 .enlaces div {
     padding: 20px;
