@@ -63,6 +63,21 @@ header ul li {
     }
 }
 
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 ;
+}
+
+.navbar-toggler {
+    border: none
+
+}
+    
 
 /* Mains */
 
@@ -373,8 +388,7 @@ footer {
 .footerTexto {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px 20px 0 20px;
     font-size: 15px;
 }
 
@@ -405,7 +419,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .enlaces div{
+    .footerTexto div{
         display: grid;
         justify-items: center;
         
