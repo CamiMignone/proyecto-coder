@@ -33,14 +33,36 @@ header ul li {
 }
 
 @media screen and (max-width: 991px) {
+    .menuNav ul{
+        display: grid;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
     .menuNav {
         position: absolute;
-        top: 251px;
+        top: 180px;
         background-color:#F4DECB;
         width: 100%;
         z-index: 2;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .cajaNav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logoMenu img {
+        width: 40%;
+        height: 40%;
+    }
+}
+
 
 /* Mains */
 
@@ -173,19 +195,12 @@ header .textoGeneral {
     font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 992px) {
+    .grupoInspo img {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 
 
@@ -355,7 +370,6 @@ footer {
     }
 }
 
-
 .footerTexto {
     display: flex;
     flex-direction: column;
@@ -371,19 +385,41 @@ footer {
 }
 
 .enlaces {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .enlaces {
         display: flex;
         flex-direction: row;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .enlaces div ul {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .enlaces div{
+        display: grid;
+        justify-items: center;
+        
+    }
+}
+
 .enlaces ul{
     padding: 0%;
+    list-style: none;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .enlaces div {
@@ -409,11 +445,3 @@ footer {
     font-size: 15px;
 }
 
-footer ul {
-    list-style: none;
-}
-
-footer ul li a {
-    color: #000000;
-    text-decoration: none;
-}
