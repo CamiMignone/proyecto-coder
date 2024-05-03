@@ -1,0 +1,416 @@
+/* Estilos generales */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header ul li {
+    padding: 10px;
+}
+
+.menuNav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menuNav a:hover {
+    color: #9d1d36;
+    font-weight: 600;
+}
+
+.logoNavbar {
+    width: 250px;
+    height: 250px;
+}
+
+.cajaHeader {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4DECB;
+}
+
+@media screen and (max-width: 991px) {
+    .menuNav {
+        position: absolute;
+        top: 251px;
+        background-color:#F4DECB;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+/* Mains */
+
+
+.posicion {
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.textoGeneral {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 500px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 18px;
+    line-height: 1.3em;
+    list-style: none;
+}
+
+.textoGeneral a {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 500px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 18px;
+    line-height: 1.3em;
+    list-style: none;
+    text-decoration: none;
+}
+
+.textoGeneral2 a:hover {
+    text-decoration: underline;
+}
+
+header .textoGeneral {
+    font-size: 22px;
+}
+
+.cajaButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    background-color: #9d1d36;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #F8EEE7;
+}
+
+.buttons a:hover {
+    color: black;
+}
+
+/* Main Index */
+@media screen and (max-width: 768px) {
+    .cajaCardsIndex .card {
+        margin: 10px;
+    }
+}
+
+.cajaCardsIndex h5 {
+    font-size: 15px;
+    opacity: 75%;
+}
+
+.cajaCardsIndex a {
+    font-size: 17px
+}
+
+.cajaCardsIndex img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .cajaCardsIndex .card {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cajaCardsIndex .card img {
+        width: 150px;
+        height: 200px;
+        margin-right: 5%;
+    }
+}
+
+
+.cardBody{
+    padding: 5% 0%;
+}
+
+
+/* Main Inspo */
+.cajaImgInspo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grupoInspo{
+    position: relative;
+}
+
+.grupoInspo img{
+    height: 800px;
+}
+
+.grupoInspo img:hover{
+    filter:brightness(50%);
+}
+
+.grupoInspo h5{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Nosotros */
+
+
+.banner {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.textoNosotros {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 500px;
+    color: black;
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    line-height: 1.3em;
+    list-style: none;
+    padding: 20px;
+}
+
+.cajaTeam {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+
+.imgTeam {
+    display: flex;
+    justify-content: center;
+}
+
+.cajaTeam h5 {
+    color: #9d1d36;
+}
+
+/* Main Shop */
+
+.imgTelas {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-inner img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.cardShop {
+    margin-top: 60px;
+}
+
+.cardShop img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cardShop .card-img-top:hover {
+    border: 2px solid transparent;
+}
+
+.headerShop {
+    position: relative;
+}
+
+.logosNav {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+.logosNav a {
+    text-decoration: none;
+}
+
+.logosNav img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+/* Main Newletter */
+
+.cajaNewsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.cajaNewsletter img {
+    padding-right: 20px;
+}
+
+.cajaCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formNewsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .campos {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.campos input {
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.logoNavbarNews {
+    width: 100px;
+    height: 100px;
+}
+
+.containerNews {
+    background-color: #F4DECB;
+}
+
+.cajaNewsletter .card {
+    border: none;
+}
+
+.cajaButtons {
+    margin-top: 20px;
+}
+
+
+/*  Footer */
+
+footer {
+    background-color: rgb(247, 241, 234);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c25848;
+}
+
+@media screen and (max-width: 992px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.footerTexto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.footerLogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 992px) {
+    .enlaces {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+.enlaces div {
+    padding: 20px;
+}
+
+.enlaces a:hover {
+    color: #F8EEE7;
+}
+
+.cajaLogo img {
+    height: 200px;
+    width: 200px;
+}
+
+.cajaLogos img {
+    height: 30px;
+    width: 30px;
+}
+
+.footerLogos p {
+    padding: 30px;
+    font-size: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+}
