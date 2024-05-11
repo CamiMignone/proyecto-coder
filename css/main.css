@@ -1,17 +1,25 @@
-/* Error: expected more input.
- *   ,
- * 1 | @import 
- *   |         ^
- *   '
- *   scss\main.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected more input.\a   \2577 \a 1 \2502  @import \a   \2502          ^\a   \2575 \a   scss\\main.scss 1:9  root stylesheet";
+/* Estilos generales */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
+
+header nav .cajaHeader {
+  display: flex;
+  flex-direction: column;
+  background-color: #F4DECB;
+}
+header nav .cajaHeader .cajaNav .logoMenu .logoNavbar {
+  width: 250px;
+  height: 250px;
+}
+header nav .cajaHeader .menuNav ul li {
+  padding: 10px;
+}
+header nav .cajaHeader .menuNav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*# sourceMappingURL=main.css.map */

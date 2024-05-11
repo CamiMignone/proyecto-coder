@@ -1,38 +1,38 @@
 /* Estilos generales */
-* {
+/* * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
+} */
 
 /* Header */
 
- header ul li {
+ /* header ul li {
     padding: 10px;
 }
 
  .menuNav a {
     text-decoration: none;
     color: #000000;
-}
+}*/
 
 .menuNav a:hover {
     color: #9d1d36;
     font-weight: 600;
 }
 
-.logoNavbar {
+/* .logoNavbar {
     width: 250px;
     height: 250px;
-}
+} */
 
-.cajaHeader {
+/* .cajaHeader {
     display: flex;
     flex-direction: column;
     background-color: #F4DECB;
-}
+} */
 
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
     .menuNav ul{
         display: grid;
         justify-items: center;

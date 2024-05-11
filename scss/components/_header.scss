@@ -1,10 +1,18 @@
 header {
     nav {
-        div {
+        .cajaHeader {
             display: flex;
             flex-direction: column;
             background-color: #F4DECB;
-            div {
+            .cajaNav{
+                .logoMenu {
+                    .logoNavbar{
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+            .menuNav {
                 ul {
                     li {
                         padding: 10px;
