@@ -14,7 +14,11 @@
  .menuNav a {
     text-decoration: none;
     color: #000000;
+<<<<<<< HEAD
 }*/
+=======
+} */
+>>>>>>> 1bb327f0eb51d29278b2e3d16f2cfb5455701cb5
 
 .menuNav a:hover {
     color: #9d1d36;

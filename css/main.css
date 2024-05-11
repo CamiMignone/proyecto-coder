@@ -1,25 +1,17 @@
-/* Estilos generales */
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
+/* Error: expected "{".
+ *   ,
+ * 5 | @import "./utilities/mediaQueries";
+ *   |                                   ^
+ *   '
+ *   scss\main.scss 5:35  root stylesheet */
 
-header nav .cajaHeader {
-  display: flex;
-  flex-direction: column;
-  background-color: #F4DECB;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 5 \2502  @import "./utilities/mediaQueries";\d\a   \2502                                    ^\a   \2575 \a   scss\\main.scss 5:35  root stylesheet';
 }
-header nav .cajaHeader .cajaNav .logoMenu .logoNavbar {
-  width: 250px;
-  height: 250px;
-}
-header nav .cajaHeader .menuNav ul li {
-  padding: 10px;
-}
-header nav .cajaHeader .menuNav ul li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-/*# sourceMappingURL=main.css.map */
