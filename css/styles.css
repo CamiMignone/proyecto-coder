@@ -119,11 +119,11 @@ header .textoGeneral {
 
 /* Main Index */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .cajaCardsIndex .card {
         margin: 10px;
     }
-}
+} */
 
 /* .cajaCardsIndex h5 {
     font-size: 15px;
@@ -157,7 +157,7 @@ header .textoGeneral {
 }
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .cajaCardsIndex .card {
         display: flex;
         flex-direction: row;
@@ -170,7 +170,7 @@ header .textoGeneral {
         height: 200px;
         margin-right: 5%;
     }
-}
+} */
 
 /* .cardBody{
     padding: 5% 0%;
@@ -203,12 +203,12 @@ header .textoGeneral {
     font-size: 18px;
 } */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .grupoInspo img {
         width: 100%;
         height: 100%;
     }
-}
+} */
 
 /* Main Nosotros */
 
@@ -333,14 +333,14 @@ header .textoGeneral {
     padding-right: 15px;
 } */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .cajaNewsletter img {
         padding: 0% 0% 5% 0%;
         width: 300px;
         display: flex;
         justify-items: center;
     }
-}
+} */
 
 /* .cajaNewsletter .col-md-4{
     display: flex;
@@ -352,11 +352,11 @@ header .textoGeneral {
     justify-content: center;
 } */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .row {
         padding: 0% 10% 10% 10%;
     }
-}
+} */
 
 /* .form-check-input {
     --bs-form-check-bg: var(--bs-body-bg);
@@ -376,12 +376,12 @@ header .textoGeneral {
     padding: 30px;
 } */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .campos {
         display: flex;
         flex-direction: column;
     }
-}
+} */
 
 /* .campos input {
     height: 50px;
@@ -455,12 +455,12 @@ header .textoGeneral {
     background-color: #c25848;
 } */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     footer {
         display: flex;
         flex-direction: column;
     }
-}
+} */
 
 /* .footerTexto {
     display: flex;
@@ -476,7 +476,7 @@ header .textoGeneral {
 } */
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .enlaces {
         display: flex;
         flex-direction: row;
@@ -493,7 +493,7 @@ header .textoGeneral {
         display: grid;
         justify-items: center;
     }
-}
+} */
 
 
 
@@ -529,4 +529,3 @@ header .textoGeneral {
     padding: 30px;
     font-size: 15px;
 } */
-
