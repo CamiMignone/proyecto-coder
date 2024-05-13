@@ -6,11 +6,10 @@ footer{
     justify-content: space-between;
     background-color: #c25848;
     .footerTexto{
-        .footerTexto {
-            display: flex;
-            flex-direction: column;
-            padding: 20px 20px 0 20px;
-            font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px 0 20px;
+        font-size: 15px;
         .presentacion{
         }
         .enlaces{
@@ -26,16 +25,6 @@ footer{
                             &:hover{
                                 color: #F8EEE7;
                             }
-                        }
-                    }
-                }
-            }
-            div{
-                h4{
-                }
-                ul{
-                    li{
-                        a{
                         }
                     }
                 }
@@ -61,8 +50,6 @@ footer{
                 img{
                     height: 30px;
                     width: 30px;
-
-                    }
                 }
             }
         }
