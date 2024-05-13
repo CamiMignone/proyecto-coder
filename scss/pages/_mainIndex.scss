@@ -1,0 +1,46 @@
+main{
+    section{
+        .cajaCardsIndex{
+            .col{
+                .cardIndex{
+                    img{
+                        height: 400px;
+                        width: 300px;
+                        object-fit: cover;
+                    }
+                    .cardBody{
+                        padding: 5% 0%;
+                        .card-title{
+                            font-size: 15px;
+                            opacity: 75%;
+                        }
+                        a{
+                            font-size: 17px;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cajaButtons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        .buttons{
+            background-color: #9d1d36;
+            button{
+                a{
+                    text-decoration: none;
+                    color: #F8EEE7;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -97,7 +97,7 @@ header .textoGeneral {
     font-size: 22px;
 }
 
-.cajaButtons {
+/* .cajaButtons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +115,7 @@ header .textoGeneral {
 
 .buttons a:hover {
     color: black;
-}
+} */
 
 /* Main Index */
 
@@ -125,24 +125,24 @@ header .textoGeneral {
     }
 }
 
-.cajaCardsIndex h5 {
+/* .cajaCardsIndex h5 {
     font-size: 15px;
     opacity: 75%;
-}
+} */
 
-.cajaCardsIndex a {
+/* .cajaCardsIndex a {
     font-size: 17px
-}
+} */
 
-.cajaCardsIndex a:hover{
+/* .cajaCardsIndex a:hover{
     text-decoration: underline;
-}
+} */
 
-.cajaCardsIndex img {
+/* .cajaCardsIndex img {
     height: 400px;
     width: 300px;
     object-fit: cover;
-}
+} */
 
 .textoGeneral a {
     font-family: "Fjalla One", sans-serif;
@@ -172,12 +172,12 @@ header .textoGeneral {
     }
 }
 
-.cardBody{
+/* .cardBody{
     padding: 5% 0%;
-}
+} */
 
 /* Main Inspo */
-.cajaImgInspo{
+/* .cajaImgInspo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -201,7 +201,7 @@ header .textoGeneral {
     top: 80%;
     left: 10%;
     font-size: 18px;
-}
+} */
 
 @media screen and (max-width: 992px) {
     .grupoInspo img {
@@ -212,7 +212,7 @@ header .textoGeneral {
 
 /* Main Nosotros */
 
-.banner {
+/* .banner {
     width: 100%;
     height: 600px;
     object-fit: cover;
@@ -243,7 +243,7 @@ header .textoGeneral {
 
 .cajaTeam h5 {
     color: #9d1d36;
-}
+} */
 
 /* Main Shop */
 
@@ -254,7 +254,7 @@ header .textoGeneral {
     height: 300px;
 }
 
-.carousel-inner img {
+/* .carousel-inner img {
     height: 600px;
     object-fit: cover;
 }
@@ -271,7 +271,7 @@ header .textoGeneral {
 
 .cardShop .card-img-top:hover {
     border: 2px solid transparent;
-}
+} */
 
 .headerShop {
     position: relative;
@@ -302,36 +302,36 @@ header .textoGeneral {
 }
 
 /* Main */
-.cajaNewsletter {
+/* .cajaNewsletter {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
-}
+} */
 
 .cajaCards {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+/* }
 
 .formNewsletter {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .containerNews {
     background-color: #F4DECB;
 }
 
-.cajaNewsletter .card {
+/* .cajaNewsletter .card {
     border: none;
 }
 
 .cajaNewsletter img {
     padding-right: 15px;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .cajaNewsletter img {
@@ -342,7 +342,7 @@ header .textoGeneral {
     }
 }
 
-.cajaNewsletter .col-md-4{
+/* .cajaNewsletter .col-md-4{
     display: flex;
     justify-content: center;
 }
@@ -350,7 +350,7 @@ header .textoGeneral {
 .cajaNewsletter .col-md-8{
     display: flex;
     justify-content: center;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .row {
@@ -358,7 +358,7 @@ header .textoGeneral {
     }
 }
 
-.form-check-input {
+/* .form-check-input {
     --bs-form-check-bg: var(--bs-body-bg);
     margin-top: 0em;
 
@@ -367,14 +367,14 @@ header .textoGeneral {
 .form-check-input:checked {
     background-color:#9d1d36;
     border-color:#9d1d36;
-}
+} */
 
-.campos {
+/* .campos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
     padding: 30px;
-}
+} */
 
 @media screen and (max-width: 992px) {
     .campos {
@@ -383,22 +383,22 @@ header .textoGeneral {
     }
 }
 
-.campos input {
+/* .campos input {
     height: 50px;
     width: 300px;
     border: 1px solid black;
-}
+} */
 
 /* Main Cursos */
 
-.bannerCurso{
+/* .bannerCurso{
     width: 100%;
     height: 600px;
     object-fit: cover;
-}
+} */
 
 
-.tituloCurso{
+/* .tituloCurso{
     display: flex;
     justify-content: center;
 }
@@ -439,7 +439,7 @@ header .textoGeneral {
 .panelCurso .card h4{
     font-size: 18px;
     font-weight: 500;
-}
+} */
 
 
 
@@ -481,6 +481,7 @@ header .textoGeneral {
         display: flex;
         flex-direction: row;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -488,14 +489,12 @@ header .textoGeneral {
         display: grid;
         justify-items: center;
     }
-}
-
-@media screen and (max-width: 768px) {
     .footerTexto div{
         display: grid;
         justify-items: center;
     }
 }
+
 
 
 /* .enlaces ul{

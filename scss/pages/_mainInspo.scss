@@ -1,0 +1,25 @@
+.mainInspo{
+    .cajaImgInspo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .grupoInspo{
+            position: relative;
+            a{
+                img{
+                    height: 800px;
+                    &:hover{
+                        filter:brightness(50%);
+                    }
+                }
+                h5{
+                    position: absolute;
+                    top: 80%;
+                    left: 10%;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

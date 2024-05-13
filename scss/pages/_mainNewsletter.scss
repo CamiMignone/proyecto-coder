@@ -1,0 +1,56 @@
+main{
+    .cajaNewsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        .card{
+            border: none;
+            .row{
+                .col-md-4{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        padding-right: 15px;
+                    }
+                }
+                .col-md-8{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .formNewsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .campos{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 50px;
+            padding: 30px;
+            div{
+                input{
+                    height: 50px;
+                    width: 300px;
+                    border: 1px solid black;
+                }
+            }
+        }
+        section{
+            div{
+                form-check{
+                    .form-check-input {
+                        --bs-form-check-bg: var(--bs-body-bg);
+                        margin-top: 0em;
+                        &:checked{
+                            background-color:#9d1d36;
+                            border-color:#9d1d36;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
