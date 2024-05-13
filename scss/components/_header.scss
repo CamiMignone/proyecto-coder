@@ -1,14 +1,17 @@
 header {
     nav {
-<<<<<<< HEAD
         .cajaHeader {
-=======
-        section {
->>>>>>> 1bb327f0eb51d29278b2e3d16f2cfb5455701cb5
             display: flex;
             flex-direction: column;
             background-color: #F4DECB;
             .cajaNav{
+                .buttonNav{
+                    .navbar-toggler:focus {
+                        text-decoration: none;
+                        outline: 0;
+                        box-shadow: 0 0 0 ;
+                    }
+                }
                 .logoMenu {
                     .logoNavbar{
                         width: 250px;
@@ -23,6 +26,11 @@ header {
                         a {
                             text-decoration: none;
                             color: #000000;
+
+                            &:hover{
+                                color: #9d1d36;
+                                font-weight: 600;
+                            }
                         }
                     }
                 }

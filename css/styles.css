@@ -7,23 +7,20 @@
 
 /* Header */
 
- /* header ul li {
+/* header ul li {
     padding: 10px;
 }
 
- .menuNav a {
+.menuNav a {
     text-decoration: none;
     color: #000000;
 <<<<<<< HEAD
 }*/
-=======
-} */
->>>>>>> 1bb327f0eb51d29278b2e3d16f2cfb5455701cb5
 
-.menuNav a:hover {
+/* .menuNav a:hover {
     color: #9d1d36;
     font-weight: 600;
-}
+} */
 
 /* .logoNavbar {
     width: 250px;
@@ -51,35 +48,28 @@
         width: 100%;
         z-index: 2;
     }
-}
+} */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
     .cajaNav {
         display: flex;
         flex-direction: row;
     }
-}
+} */
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .logoMenu img {
         width: 40%;
         height: 40%;
     }
-}
+} */
 
 .navbar{
     --bs-navbar-padding-y: 0rem;
 }
 
-.navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: 0 0 0 ;
-}
-
 .navbar-toggler {
     border: none
-
 }
     
 
@@ -456,14 +446,14 @@ header .textoGeneral {
 
 /*  Footer */
 
-footer {
+/* footer {
     background-color: rgb(247, 241, 234);
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #c25848;
-}
+} */
 
 @media screen and (max-width: 992px) {
     footer {
@@ -472,18 +462,18 @@ footer {
     }
 }
 
-.footerTexto {
+/* .footerTexto {
     display: flex;
     flex-direction: column;
     padding: 20px 20px 0 20px;
     font-size: 15px;
-}
+} */
 
-.footerLogos {
+/* .footerLogos {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 
 @media screen and (min-width: 768px) {
@@ -508,36 +498,36 @@ footer {
 }
 
 
-.enlaces ul{
+/* .enlaces ul{
     padding: 0%;
     list-style: none;
-}
+} */
 
-footer ul li a {
+/* footer ul li a {
     color: #000000;
     text-decoration: none;
-}
+} */
 
-.enlaces div {
+/* .enlaces div {
     padding: 20px
-}
+} */
 
-.enlaces a:hover {
+/* .enlaces a:hover {
     color: #F8EEE7;
-}
+} */
 
-.cajaLogo img {
+/* .cajaLogo img {
     height: 200px;
     width: 200px;
-}
+} */
 
-.cajaLogos img {
+/* .cajaLogos img {
     height: 30px;
     width: 30px;
-}
+} */
 
-.footerLogos p {
+/* .footerLogos p {
     padding: 30px;
     font-size: 15px;
-}
+} */
 

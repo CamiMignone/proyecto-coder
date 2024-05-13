@@ -1,0 +1,36 @@
+@media screen and (max-width: 991px) {
+    header{
+        nav{
+            .cajaHeader{
+                .cajaNav{
+                }
+                .menuNav{
+                    position: absolute;
+                    top: 100%;
+                    background-color:#F4DECB;
+                    width: 100%;
+                    z-index: 2;
+                    ul{
+                        display: grid;
+                        justify-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .cajaNav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logoMenu img {
+        width: 40%;
+        height: 40%;
+    }
+}
