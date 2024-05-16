@@ -1,3 +1,15 @@
+.containerNews{
+    background-color: $bgColor;
+    .container{
+        .logoMenu{
+            .logoNavbarNews{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}
+
 main{
     .cajaNewsletter{
         display: flex;
@@ -34,7 +46,7 @@ main{
                 input{
                     height: 50px;
                     width: 300px;
-                    border: 1px solid black;
+                    border: 1px solid $fontColor;
                 }
             }
         }
@@ -45,8 +57,8 @@ main{
                         --bs-form-check-bg: var(--bs-body-bg);
                         margin-top: 0em;
                         &:checked{
-                            background-color:#9d1d36;
-                            border-color:#9d1d36;
+                            background-color: $color2;
+                            border-color:$color2;
                         }
                     }
                 }

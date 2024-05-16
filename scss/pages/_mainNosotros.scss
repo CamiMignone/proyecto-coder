@@ -5,13 +5,9 @@ main{
         object-fit: cover;
     }
     .textoNosotros{
-        font-family: "Fjalla One", sans-serif;
-        font-weight: 500px;
-        color: black;
-        letter-spacing: 0.05em;
+        @extend .textoGeneral;
+        letter-spacing: 0.1em;
         font-size: 18px;
-        line-height: 1.3em;
-        list-style: none;
         padding: 20px;
     }
     .card{
@@ -27,7 +23,7 @@ main{
             .col-md-8{
                 .textoNosotros{
                     .card-title{
-                        color: #9d1d36;
+                        color: $color2;
                     }
                 }
             }

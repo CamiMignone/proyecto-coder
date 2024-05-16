@@ -1,10 +1,10 @@
 footer{
-    background-color: rgb(247, 241, 234);
-    color: rgb(0, 0, 0);
+    background-color: $bgColor;
+    color: $fontColor;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #c25848;
+    background-color: $bgColor2;
     .footerTexto{
         display: flex;
         flex-direction: column;
@@ -18,10 +18,10 @@ footer{
                     list-style: none;
                     li{
                         a{
-                            color: #000000;
+                            color: $fontColor;
                             text-decoration: none;
                             &:hover{
-                                color: #F8EEE7;
+                                color: $fontColor2;
                             }
                         }
                     }

@@ -31,13 +31,13 @@ main{
         justify-content: center;
         padding-bottom: 10px;
         .buttons{
-            background-color: #9d1d36;
+            background-color: $color2;
             button{
                 a{
                     text-decoration: none;
-                    color: #F8EEE7;
+                    color: $fontColor2;
                     &:hover{
-                        color: black;
+                        color: $fontColor;
                     }
                 }
             }

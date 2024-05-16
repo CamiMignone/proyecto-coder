@@ -10,9 +10,9 @@ main{
             justify-content: center;
             h2{
                 margin-top: 100px;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $fontColor;
                 width: 60%;
-                color: #9d1d36;
+                color: $color2;
             }
             }
         }

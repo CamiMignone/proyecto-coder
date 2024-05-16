@@ -3,3 +3,36 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+$fontSize: 20px;
+$fontSpaced: 0.12em;
+$fontColor: black;
+$fontColor2: #F8EEE7;
+$fontWeight: 500px;
+$bgColor: #F4DECB;
+$bgColor2: #c25848;
+$color2: #9d1d36;
+
+.textoGeneral{
+    font-family: "Fjalla One", sans-serif;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    color: $fontColor;
+    letter-spacing: $fontSpaced;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.textoGeneral a{
+    @extend .textoGeneral;
+    text-decoration: none;
+}
+
+.posicion{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 20px;
+    font-size: $fontSize;
+}
+

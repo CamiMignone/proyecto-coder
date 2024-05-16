@@ -3,7 +3,7 @@ header {
         .cajaHeader {
             display: flex;
             flex-direction: column;
-            background-color: #F4DECB;
+            background-color: $bgColor;
             .cajaNav{
                 .buttonNav{
                     .navbar-toggler:focus {
@@ -25,10 +25,10 @@ header {
                         padding: 10px;
                         a {
                             text-decoration: none;
-                            color: #000000;
+                            color: $fontColor;
 
                             &:hover{
-                                color: #9d1d36;
+                                color: $color2;
                                 font-weight: 600;
                             }
                         }

@@ -14,7 +14,7 @@
 .menuNav a {
     text-decoration: none;
     color: #000000;
-<<<<<<< HEAD
+
 }*/
 
 /* .menuNav a:hover {
@@ -75,14 +75,14 @@
 
 /* Mains */
 
-.posicion {
+/* .posicion {
     padding-left: 10%;
     padding-top: 3%;
     padding-bottom: 20px;
     font-size: 20px;
-}
+} */
 
-.textoGeneral {
+/* .textoGeneral {
     font-family: "Fjalla One", sans-serif;
     font-weight: 500px;
     color: black;
@@ -91,9 +91,9 @@
     font-size: 18px;
     line-height: 1.3em;
     list-style: none;
-}
+} */
 
-header .textoGeneral {hhh
+header .textoGeneral {
     font-size: 22px;
 }
 
@@ -144,7 +144,7 @@ header .textoGeneral {hhh
     object-fit: cover;
 } */
 
-.textoGeneral a {
+/* .textoGeneral a {
     font-family: "Fjalla One", sans-serif;
     font-weight: 500px;
     color: black;
@@ -154,7 +154,7 @@ header .textoGeneral {hhh
     line-height: 1.3em;
     list-style: none;
     text-decoration: none;
-}
+} */
 
 
 /* @media screen and (max-width: 768px) {
@@ -247,13 +247,6 @@ header .textoGeneral {hhh
 
 /* Main Shop */
 
-.imgTelas {
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
-}
-
 /* .carousel-inner img {
     height: 600px;
     object-fit: cover;
@@ -273,33 +266,13 @@ header .textoGeneral {hhh
     border: 2px solid transparent;
 } */
 
-.headerShop {
-    position: relative;
-}
-
-.logosNav {
-    position: absolute;
-    top: 40%;
-    right: 10%;
-}
-
-.logosNav a {
-    text-decoration: none;
-}
-
-.logosNav img {
-    width: 30px;
-    height: 30px;
-    margin: 10px;
-}
-
 /* Newsletter */
 
 /* Header */
-.logoNavbarNews {
+/* .logoNavbarNews {
     width: 100px;
     height: 100px;
-}
+} */
 
 /* Main */
 /* .cajaNewsletter {
@@ -308,12 +281,7 @@ header .textoGeneral {hhh
     align-items: center;
     padding-top: 30px;
 } */
-
-.cajaCards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-/* }
+/*
 
 .formNewsletter {
     display: flex;
@@ -321,9 +289,9 @@ header .textoGeneral {hhh
     align-items: center;
 } */
 
-.containerNews {
+/* .containerNews {
     background-color: #F4DECB;
-}
+} */
 
 /* .cajaNewsletter .card {
     border: none;

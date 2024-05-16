@@ -1,5 +1,5 @@
 @import "./utilities/globals";
-@import "./utilities/medidasQueries";
+@import "./components/header";
 
 @import "./pages/mainIndex";
 @import "./pages/mainCursos";
@@ -8,5 +8,6 @@
 @import "./pages/mainInspo";
 @import "./pages/mainNewsletter";
 
-@import "./components/header";
+
 @import "./components/footer";
+@import "./utilities/medidasQueries";
