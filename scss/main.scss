@@ -1,12 +1,12 @@
 @import "./utilities/globals";
-@import "./components/header";
+@import "./utilities/medidasQueries";
 
 @import "./pages/mainIndex";
+@import "./pages/mainCursos";
+@import "./pages/mainShop";
+@import "./pages/mainNosotros";
 @import "./pages/mainInspo";
 @import "./pages/mainNewsletter";
-@import "./pages/mainShop";
-@import "./pages/mainCursos";
-@import "./pages/mainNosotros";
 
+@import "./components/header";
 @import "./components/footer";
-@import "./utilities/mediaQueries";
