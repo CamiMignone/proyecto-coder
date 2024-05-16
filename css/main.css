@@ -45,18 +45,18 @@ footer .footerTexto .footerTexto {
   padding: 20px 20px 0 20px;
   font-size: 15px;
 }
-footer .footerTexto .footerTexto .enlaces div {
+footer .footerTexto .enlaces div {
   padding: 20px;
 }
-footer .footerTexto .footerTexto .enlaces div ul {
+footer .footerTexto .enlaces div ul {
   padding: 0%;
   list-style: none;
 }
-footer .footerTexto .footerTexto .enlaces div ul li a {
+footer .footerTexto .enlaces div ul li a {
   color: #000000;
   text-decoration: none;
 }
-footer .footerTexto .footerTexto .enlaces div ul li a:hover {
+footer .footerTexto .enlaces div ul li a:hover {
   color: #F8EEE7;
 }
 footer .footerTexto .footerLogos {
