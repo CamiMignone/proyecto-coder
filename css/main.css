@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.textoGeneral, main .textoNosotros, main .textoNosotros a, header, header a, .textoGeneral a, header a, header a a {
+.textoGeneral, header, header a, .textoGeneral a, header a, header a a {
   font-family: "Fjalla One", sans-serif;
   font-weight: 500px;
   color: black;
@@ -14,8 +14,17 @@
   list-style: none;
 }
 
-.textoGeneral a, main .textoNosotros a, header a, header a a {
+.textoGeneral a, header a, header a a {
   text-decoration: none;
+}
+
+.textoNosotros {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+  padding: 20px;
 }
 
 .posicion {
@@ -64,6 +73,8 @@ main section .cajaCardsIndex .col .cardIndex img {
   height: 400px;
   width: 300px;
   object-fit: cover;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
 }
 main section .cajaCardsIndex .col .cardIndex .cardBody {
   padding: 5% 0%;
@@ -137,7 +148,7 @@ main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
 }
 
 main .carousel .carousel-inner .carousel-item img {
-  height: 400px;
+  height: 500px;
   object-fit: cover;
 }
 main .container .row .col .cardShop {
@@ -147,6 +158,8 @@ main .container .row .col .cardShop a img {
   width: 100%;
   height: 400px;
   object-fit: cover;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
 }
 main .container .row .col .cardShop a img:hover {
   border: 2px solid transparent;
@@ -157,22 +170,19 @@ main .banner {
   height: 600px;
   object-fit: cover;
 }
-main .textoNosotros {
-  letter-spacing: 0.1em;
-  font-size: 18px;
-  padding: 20px;
-}
 main .card .cajaTeam {
   display: flex;
   flex-direction: row;
   padding: 20px;
   align-items: center;
+  background-color: #F4DECB;
 }
 main .card .cajaTeam .imgTeam {
   display: flex;
   justify-content: center;
 }
 main .card .cajaTeam .col-md-8 .textoNosotros .card-title {
+  font-size: 25px;
   color: #9d1d36;
 }
 
@@ -214,6 +224,8 @@ main .cajaNewsletter {
 }
 main .cajaNewsletter .card {
   border: none;
+  border-top: 1px solid rgb(180, 180, 180);
+  --bs-card-border-radius: 0px;
 }
 main .cajaNewsletter .card .row .col-md-4 {
   display: flex;
@@ -236,6 +248,7 @@ main .formNewsletter .campos {
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
   padding: 30px;
+  border-top: 1px solid black;
 }
 main .formNewsletter .campos div input {
   height: 50px;

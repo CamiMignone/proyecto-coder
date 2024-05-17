@@ -4,18 +4,13 @@ main{
         height: 600px;
         object-fit: cover;
     }
-    .textoNosotros{
-        @extend .textoGeneral;
-        letter-spacing: 0.1em;
-        font-size: 18px;
-        padding: 20px;
-    }
     .card{
         .cajaTeam{
             display: flex;
             flex-direction: row;
             padding: 20px;
             align-items: center;
+            background-color: $bgColor;
             .imgTeam{
                 display: flex;
                 justify-content: center;
@@ -23,6 +18,7 @@ main{
             .col-md-8{
                 .textoNosotros{
                     .card-title{
+                        font-size: 25px;
                         color: $color2;
                     }
                 }
