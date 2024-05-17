@@ -1,6 +1,7 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     header{
-        nav{
+        .navbar{
+            --bs-navbar-toggler-focus-width: 0px;
             .cajaHeader{
                 .menuNav{
                     position: absolute;
@@ -16,20 +17,127 @@
             }
         }
     }
-}
-
-
-@media screen and (max-width: 320px) {
-    .cajaNav {
+    .mainInspo{
+        .cajaImgInspo{
+            .grupoInspo{
+                a{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+    footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
+    main{
+        .formNewsletter{
+            .campos{
+                display: flex;
+                flex-direction: column;
+                padding: 0%;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    main{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        height: 300px;
+                    }
+                }
+            }
+        }
     }
 }
 
 @media screen and (max-width: 576px) {
-    .logoMenu img {
-        width: 40%;
-        height: 40%;
+    header{
+        .navbar{
+            .cajaHeader{
+                .cajaNav{
+                    display: flex;
+                    flex-direction: row;
+                    .logoMenu{
+                        .logoNavbar{
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        section{
+            .cajaCardsIndex{
+                .col{
+                    .cardIndex{
+                        .cardBody{
+                            a{
+                                font-size: 15px;
+                            }
+                        }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        section{
+            .cajaCardsIndex{
+                margin-right:0%;
+                .col{
+                    .cardIndex{
+                        display: flex;
+                        flex-direction: row;
+                        margin: 10px;
+                        img{
+                            width: 70%;
+                            margin-right: 5%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .cajaNewsletter{
+            .card{
+                .row{
+                    padding: 0% 10% 10% 10%;
+                    .col-md-4{
+                        img{
+                            padding: 0% 0% 5% 0%;
+                            width: 300px;
+                            display: flex;
+                            justify-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .footerTexto{
+            .enlaces{
+                div{
+                    display: grid;
+                    justify-items: center;
+                    ul{
+                        display: grid;
+                        justify-items: center;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -38,73 +146,8 @@
         display: flex;
         flex-direction: row;
     }
-    
 }
 
-@media screen and (max-width: 768px) {
-    .enlaces div ul {
-        display: grid;
-        justify-items: center;
-    }
-    .footerTexto div{
-        display: grid;
-        justify-items: center;
-    }
-}
 
-@media screen and (max-width: 992px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .row {
-        padding: 0% 10% 10% 10%;
-    }
-}
 
-@media screen and (max-width: 992px) {
-    .campos {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cajaNewsletter img {
-        padding: 0% 0% 5% 0%;
-        width: 300px;
-        display: flex;
-        justify-items: center;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .grupoInspo img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cajaCardsIndex .card {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cajaCardsIndex .card img {
-        width: 150px;
-        height: 200px;
-        margin-right: 5%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cajaCardsIndex .card {
-        margin: 10px;
-    }
-}

@@ -1,18 +1,20 @@
 header {
-    nav {
+    @extend .textoGeneral;
+    font-size: 22px;
+    .navbar {
+        --bs-navbar-padding-y: 0rem;
         .cajaHeader {
             display: flex;
             flex-direction: column;
             background-color: $bgColor;
+            --bs-gutter-x: 0em;
             .cajaNav{
                 .buttonNav{
-                    .navbar-toggler:focus {
-                        text-decoration: none;
-                        outline: 0;
-                        box-shadow: 0 0 0 ;
-                    }
+                    border: none;
                 }
                 .logoMenu {
+                    margin: 0%;
+                    padding: 0%;
                     .logoNavbar{
                         width: 250px;
                         height: 250px;

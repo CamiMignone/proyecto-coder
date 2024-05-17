@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-.textoGeneral, main .textoNosotros, main .textoNosotros a, .textoGeneral a {
+.textoGeneral, main .textoNosotros, main .textoNosotros a, header, header a, .textoGeneral a, header a, header a a {
   font-family: "Fjalla One", sans-serif;
-  font-size: 20px;
   font-weight: 500px;
   color: black;
   letter-spacing: 0.12em;
@@ -15,7 +14,7 @@
   list-style: none;
 }
 
-.textoGeneral a, main .textoNosotros a {
+.textoGeneral a, main .textoNosotros a, header a, header a a {
   text-decoration: none;
 }
 
@@ -26,28 +25,37 @@
   font-size: 20px;
 }
 
-header nav .cajaHeader {
+header {
+  font-size: 22px;
+}
+header .navbar {
+  --bs-navbar-padding-y: 0rem;
+}
+header .navbar .cajaHeader {
   display: flex;
   flex-direction: column;
   background-color: #F4DECB;
+  --bs-gutter-x: 0em;
 }
-header nav .cajaHeader .cajaNav .buttonNav .navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0;
+header .navbar .cajaHeader .cajaNav .buttonNav {
+  border: none;
 }
-header nav .cajaHeader .cajaNav .logoMenu .logoNavbar {
+header .navbar .cajaHeader .cajaNav .logoMenu {
+  margin: 0%;
+  padding: 0%;
+}
+header .navbar .cajaHeader .cajaNav .logoMenu .logoNavbar {
   width: 250px;
   height: 250px;
 }
-header nav .cajaHeader .menuNav ul li {
+header .navbar .cajaHeader .menuNav ul li {
   padding: 10px;
 }
-header nav .cajaHeader .menuNav ul li a {
+header .navbar .cajaHeader .menuNav ul li a {
   text-decoration: none;
   color: black;
 }
-header nav .cajaHeader .menuNav ul li a:hover {
+header .navbar .cajaHeader .menuNav ul li a:hover {
   color: #9d1d36;
   font-weight: 600;
 }
@@ -129,14 +137,14 @@ main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
 }
 
 main .carousel .carousel-inner .carousel-item img {
-  height: 600px;
+  height: 400px;
   object-fit: cover;
 }
 main .container .row .col .cardShop {
   margin-top: 60px;
 }
 main .container .row .col .cardShop a img {
-  width: 300px;
+  width: 100%;
   height: 400px;
   object-fit: cover;
 }
@@ -289,94 +297,86 @@ footer .footerLogos .cajaLogos a img {
   width: 30px;
 }
 
-@media screen and (max-width: 991px) {
-  header nav .cajaHeader .menuNav {
+@media screen and (max-width: 992px) {
+  header .navbar {
+    --bs-navbar-toggler-focus-width: 0px;
+  }
+  header .navbar .cajaHeader .menuNav {
     position: absolute;
     top: 100%;
     background-color: #F4DECB;
     width: 100%;
     z-index: 2;
   }
-  header nav .cajaHeader .menuNav ul {
+  header .navbar .cajaHeader .menuNav ul {
     display: grid;
     justify-items: center;
   }
-}
-@media screen and (max-width: 320px) {
-  .cajaNav {
+  .mainInspo .cajaImgInspo .grupoInspo a img {
+    width: 100%;
+    height: 100%;
+  }
+  footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  main .formNewsletter .campos {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-bottom: 10px;
+  }
+  main .carousel .carousel-inner .carousel-item img {
+    height: 300px;
   }
 }
 @media screen and (max-width: 576px) {
-  .logoMenu img {
-    width: 40%;
-    height: 40%;
+  header .navbar .cajaHeader .cajaNav {
+    display: flex;
+    flex-direction: row;
+  }
+  header .navbar .cajaHeader .cajaNav .logoMenu .logoNavbar {
+    width: 70%;
+  }
+  main section .cajaCardsIndex .col .cardIndex .cardBody a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main section .cajaCardsIndex {
+    margin-right: 0%;
+  }
+  main section .cajaCardsIndex .col .cardIndex {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  main section .cajaCardsIndex .col .cardIndex img {
+    width: 70%;
+    margin-right: 5%;
+  }
+  main .cajaNewsletter .card .row {
+    padding: 0% 10% 10% 10%;
+  }
+  main .cajaNewsletter .card .row .col-md-4 img {
+    padding: 0% 0% 5% 0%;
+    width: 300px;
+    display: flex;
+    justify-items: center;
+  }
+  footer .footerTexto .enlaces div {
+    display: grid;
+    justify-items: center;
+  }
+  footer .footerTexto .enlaces div ul {
+    display: grid;
+    justify-items: center;
   }
 }
 @media screen and (min-width: 768px) {
   .enlaces {
     display: flex;
     flex-direction: row;
-  }
-}
-@media screen and (max-width: 768px) {
-  .enlaces div ul {
-    display: grid;
-    justify-items: center;
-  }
-  .footerTexto div {
-    display: grid;
-    justify-items: center;
-  }
-}
-@media screen and (max-width: 992px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  .row {
-    padding: 0% 10% 10% 10%;
-  }
-}
-@media screen and (max-width: 992px) {
-  .campos {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cajaNewsletter img {
-    padding: 0% 0% 5% 0%;
-    width: 300px;
-    display: flex;
-    justify-items: center;
-  }
-}
-@media screen and (max-width: 992px) {
-  .grupoInspo img {
-    width: 100%;
-    height: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cajaCardsIndex .card {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cajaCardsIndex .card img {
-    width: 150px;
-    height: 200px;
-    margin-right: 5%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cajaCardsIndex .card {
-    margin: 10px;
   }
 }
 
