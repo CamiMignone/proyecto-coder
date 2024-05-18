@@ -2,6 +2,7 @@
     header{
         .navbar{
             --bs-navbar-toggler-focus-width: 0px;
+            --bs-navbar-toggler-border-color: 0px;
             .cajaHeader{
                 .menuNav{
                     position: absolute;
@@ -43,7 +44,7 @@
             }
         }
     }
-    main{
+    .mainShop{
         .carousel{
             .carousel-inner{
                 .carousel-item{
@@ -65,7 +66,7 @@
                     flex-direction: row;
                     .logoMenu{
                         .logoNavbar{
-                            width: 70%;
+                            width: 100%;
                         }
                     }
                 }
@@ -136,6 +137,34 @@
                         justify-items: center;
                     }
                 }
+            }
+        }
+    }
+    .mainShop{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    h5{
+                        z-index: -2;
+                    }
+                }
+            }
+        }
+        h2{
+            width: 150px;
+            margin-left: 10px;
+        }
+    }
+    main{
+        .cajaContacto{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            .contacto{
+                width: 90%
+            }
+            .inputs{
+                width: 90%
             }
         }
     }

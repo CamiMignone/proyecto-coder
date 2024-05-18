@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-.textoNosotros {
+.textoNosotros, .mainInspo .cajaImgInspo .grupoInspo a h5 {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -147,22 +147,44 @@ main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
   font-weight: 500;
 }
 
-main .carousel .carousel-inner .carousel-item img {
+.mainShop .carousel .carousel-inner .carousel-item {
+  position: relative;
+}
+.mainShop .carousel .carousel-inner .carousel-item img {
   height: 500px;
   object-fit: cover;
 }
-main .container .row .col .cardShop {
+.mainShop .carousel .carousel-inner .carousel-item h5 {
+  margin: 0%;
+  position: absolute;
+  top: 47%;
+  left: 80%;
+  padding: 0%;
+  font-size: 25px;
+}
+.mainShop h2 {
+  margin-left: 20%;
+  border-bottom: 1px solid black;
+  width: 300px;
+}
+.mainShop .container .row .col .cardShop {
   margin-top: 60px;
 }
-main .container .row .col .cardShop a img {
+.mainShop .container .row .col .cardShop a img {
   width: 100%;
   height: 400px;
   object-fit: cover;
   border-top-left-radius: 0%;
   border-top-right-radius: 0%;
 }
-main .container .row .col .cardShop a img:hover {
+.mainShop .container .row .col .cardShop a img:hover {
   border: 2px solid transparent;
+}
+.mainShop .container .buttons {
+  background-color: #9d1d36;
+  margin-bottom: 60px;
+  width: 200px;
+  padding: 10px;
 }
 
 main .banner {
@@ -181,9 +203,26 @@ main .card .cajaTeam .imgTeam {
   display: flex;
   justify-content: center;
 }
-main .card .cajaTeam .col-md-8 .textoNosotros .card-title {
+main .card .cajaTeam .col-md-8 .textoNosotros .card-title, main .card .cajaTeam .col-md-8 .mainInspo .cajaImgInspo .grupoInspo a h5 .card-title, .mainInspo .cajaImgInspo .grupoInspo a main .card .cajaTeam .col-md-8 h5 .card-title {
   font-size: 25px;
   color: #9d1d36;
+}
+main .cajaContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+}
+main .cajaContacto .contacto h4 {
+  margin-bottom: 20px;
+}
+main .cajaContacto .contacto h4:first-child {
+  margin-bottom: 50px;
+}
+main .cajaContacto .inputs {
+  width: 500px;
+  margin: 10px;
 }
 
 .mainInspo .cajaImgInspo {
@@ -195,17 +234,21 @@ main .card .cajaTeam .col-md-8 .textoNosotros .card-title {
 .mainInspo .cajaImgInspo .grupoInspo {
   position: relative;
 }
+.mainInspo .cajaImgInspo .grupoInspo a {
+  color: transparent;
+}
+.mainInspo .cajaImgInspo .grupoInspo a:hover {
+  filter: brightness(50%);
+  color: rgb(255, 255, 255);
+}
 .mainInspo .cajaImgInspo .grupoInspo a img {
   height: 800px;
-}
-.mainInspo .cajaImgInspo .grupoInspo a img:hover {
-  filter: brightness(50%);
 }
 .mainInspo .cajaImgInspo .grupoInspo a h5 {
   position: absolute;
   top: 80%;
   left: 10%;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .containerNews {
@@ -248,12 +291,10 @@ main .formNewsletter .campos {
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
   padding: 30px;
-  border-top: 1px solid black;
 }
 main .formNewsletter .campos div input {
   height: 50px;
   width: 300px;
-  border: 1px solid black;
 }
 main .formNewsletter section div form-check .form-check-input {
   --bs-form-check-bg: var(--bs-body-bg);
@@ -313,6 +354,7 @@ footer .footerLogos .cajaLogos a img {
 @media screen and (max-width: 992px) {
   header .navbar {
     --bs-navbar-toggler-focus-width: 0px;
+    --bs-navbar-toggler-border-color: 0px;
   }
   header .navbar .cajaHeader .menuNav {
     position: absolute;
@@ -339,7 +381,7 @@ footer .footerLogos .cajaLogos a img {
     padding: 0%;
     padding-bottom: 10px;
   }
-  main .carousel .carousel-inner .carousel-item img {
+  .mainShop .carousel .carousel-inner .carousel-item img {
     height: 300px;
   }
 }
@@ -349,7 +391,7 @@ footer .footerLogos .cajaLogos a img {
     flex-direction: row;
   }
   header .navbar .cajaHeader .cajaNav .logoMenu .logoNavbar {
-    width: 70%;
+    width: 100%;
   }
   main section .cajaCardsIndex .col .cardIndex .cardBody a {
     font-size: 15px;
@@ -384,6 +426,24 @@ footer .footerLogos .cajaLogos a img {
   footer .footerTexto .enlaces div ul {
     display: grid;
     justify-items: center;
+  }
+  .mainShop .carousel .carousel-inner .carousel-item h5 {
+    z-index: -2;
+  }
+  .mainShop h2 {
+    width: 150px;
+    margin-left: 10px;
+  }
+  main .cajaContacto {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  main .cajaContacto .contacto {
+    width: 90%;
+  }
+  main .cajaContacto .inputs {
+    width: 90%;
   }
 }
 @media screen and (min-width: 768px) {

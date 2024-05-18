@@ -25,4 +25,23 @@ main{
             }
         }
     }
+    .cajaContacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 400px;
+        .contacto{
+            h4{
+                margin-bottom: 20px;
+                &:first-child{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        .inputs{
+            width: 500px;
+            margin: 10px;
+        }
+    }
 }

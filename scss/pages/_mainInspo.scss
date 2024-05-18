@@ -7,17 +7,20 @@
         .grupoInspo{
             position: relative;
             a{
+                color: transparent;
+                &:hover{
+                    filter:brightness(50%);
+                    color: rgb(255, 255, 255);
+                }
                 img{
                     height: 800px;
-                    &:hover{
-                        filter:brightness(50%);
-                    }
                 }
                 h5{
+                    @extend .textoNosotros;
                     position: absolute;
                     top: 80%;
                     left: 10%;
-                    font-size: 18px;
+                    font-size: 13px;
                 }
             }
         }

@@ -44,12 +44,10 @@ main{
             grid-template-columns: 1fr 1fr;
             column-gap: 50px;
             padding: 30px;
-            border-top: 1px solid black;
             div{
                 input{
                     height: 50px;
                     width: 300px;
-                    border: 1px solid $fontColor;
                 }
             }
         }
