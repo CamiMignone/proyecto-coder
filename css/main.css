@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.textoGeneral, header, header a, .textoGeneral a, header a, header a a {
+.textoGeneral, header, header a, .cajaButtons .buttons input, .cajaButtons .buttons input a, .textoGeneral a, header a, header a a {
   font-family: "Fjalla One", sans-serif;
   font-weight: 500px;
   color: black;
@@ -14,7 +14,7 @@
   list-style: none;
 }
 
-.textoGeneral a, header a, header a a {
+.textoGeneral a, header a, header a a, .cajaButtons .buttons input a {
   text-decoration: none;
 }
 
@@ -25,6 +25,32 @@
   font-style: normal;
   font-size: 19px;
   padding: 20px;
+}
+
+.cajaButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.cajaButtons .buttons1 {
+  background-color: #9d1d36;
+  padding: 15px;
+  font-size: 18px;
+}
+.cajaButtons .buttons1 a {
+  text-decoration: none;
+  color: #F8EEE7;
+}
+.cajaButtons .buttons1 a:hover {
+  color: black;
+}
+.cajaButtons .buttons input {
+  background-color: #9d1d36;
+  padding: 10px;
+}
+.cajaButtons .buttons input:hover {
+  zoom: 1.1;
 }
 
 .posicion {
@@ -88,22 +114,6 @@ main section .cajaCardsIndex .col .cardIndex .cardBody a {
 }
 main section .cajaCardsIndex .col .cardIndex .cardBody a:hover {
   text-decoration: underline;
-}
-main .cajaButtons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 10px;
-}
-main .cajaButtons .buttons {
-  background-color: #9d1d36;
-}
-main .cajaButtons .buttons button a {
-  text-decoration: none;
-  color: #F8EEE7;
-}
-main .cajaButtons .buttons button a:hover {
-  color: black;
 }
 
 main .cajaCursos .bannerCurso {
@@ -180,12 +190,6 @@ main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
 .mainShop .container .row .col .cardShop a img:hover {
   border: 2px solid transparent;
 }
-.mainShop .container .buttons {
-  background-color: #9d1d36;
-  margin-bottom: 60px;
-  width: 200px;
-  padding: 10px;
-}
 
 main .banner {
   width: 100%;
@@ -212,7 +216,7 @@ main .cajaContacto {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 400px;
+  height: auto;
 }
 main .cajaContacto .contacto h4 {
   margin-bottom: 20px;
@@ -222,7 +226,16 @@ main .cajaContacto .contacto h4:first-child {
 }
 main .cajaContacto .inputs {
   width: 500px;
-  margin: 10px;
+  height: 500px;
+  margin: 20px 20px 40px 20px;
+  box-shadow: 2.5px 2.5px 10px 10px rgb(194, 194, 194);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main .cajaContacto .inputs .mb-3 {
+  margin: 20px;
 }
 
 .mainInspo .cajaImgInspo {

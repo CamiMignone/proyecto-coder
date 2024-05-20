@@ -37,6 +37,34 @@ $color2: #9d1d36;
     padding: 20px;
 }
 
+.cajaButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    .buttons1{
+        background-color: $color2;
+        padding: 15px;
+        font-size: 18px;
+            a{
+                text-decoration: none;
+                color: $fontColor2;
+                &:hover{
+                    color: $fontColor;
+                }
+        }
+    }
+    .buttons{
+        input{
+            @extend .textoGeneral;
+            background-color: $color2;
+            padding: 10px;
+            &:hover{
+                zoom: 1.1;
+            }
+        }
+    }
+}
 
 .posicion{
     padding-left: 10%;

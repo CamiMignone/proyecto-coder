@@ -27,22 +27,4 @@ main{
             }
         }
     }
-    .cajaButtons{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 10px;
-        .buttons{
-            background-color: $color2;
-            button{
-                a{
-                    text-decoration: none;
-                    color: $fontColor2;
-                    &:hover{
-                        color: $fontColor;
-                    }
-                }
-            }
-        }
-    }
 }
