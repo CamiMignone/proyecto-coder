@@ -1,6 +1,6 @@
 header {
     @extend .textoGeneral;
-    font-size: 22px;
+    font-size: 20px;
     .navbar {
         --bs-navbar-padding-y: 0rem;
         .cajaHeader {
@@ -16,8 +16,8 @@ header {
                     margin: 0%;
                     padding: 0%;
                     .logoNavbar{
-                        width: 250px;
-                        height: 250px;
+                        width: 200px;
+                        height: 200px;
                     }
                 }
             }

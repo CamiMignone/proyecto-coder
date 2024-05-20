@@ -61,7 +61,7 @@
 }
 
 header {
-  font-size: 22px;
+  font-size: 20px;
 }
 header .navbar {
   --bs-navbar-padding-y: 0rem;
@@ -80,8 +80,8 @@ header .navbar .cajaHeader .cajaNav .logoMenu {
   padding: 0%;
 }
 header .navbar .cajaHeader .cajaNav .logoMenu .logoNavbar {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 header .navbar .cajaHeader .menuNav ul li {
   padding: 10px;
@@ -354,6 +354,7 @@ footer .footerLogos {
 footer .footerLogos p {
   padding: 30px;
   font-size: 15px;
+  margin: 0%;
 }
 footer .footerLogos .cajaLogo img {
   height: 200px;
