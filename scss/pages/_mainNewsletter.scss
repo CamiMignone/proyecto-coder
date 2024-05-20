@@ -33,6 +33,12 @@
                 .col-md-8{
                     display: flex;
                     justify-content: center;
+                    div{
+                        .form-check-input:checked {
+                            background-color: $color2;
+                            border-color: $color2;
+                        }
+                    }
                 }
             }
         }
@@ -55,14 +61,10 @@
         }
         section{
             div{
-                form-check{
-                    .form-check-input {
-                        --bs-form-check-bg: var(--bs-body-bg);
-                        margin-top: 0em;
-                        &:checked{
-                            background-color: $color2;
-                            border-color:$color2;
-                        }
+                .form-check{
+                    .form-check-input:checked {
+                        background-color: $color2;
+                        border-color: $color2;
                     }
                 }
             }

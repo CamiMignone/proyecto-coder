@@ -1,4 +1,5 @@
 .mainInspo{
+    @include textoGeneral;
     .cajaImgInspo{
         display: flex;
         flex-direction: row;
@@ -16,7 +17,8 @@
                     height: 800px;
                 }
                 h5{
-                    @include textoGeneral2;
+                    font-family: "EB Garamond", serif;
+                    font-size: 15px;
                     position: absolute;
                     top: 80%;
                     left: 10%;

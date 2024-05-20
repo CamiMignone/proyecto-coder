@@ -23,9 +23,6 @@ $color2: #9d1d36;
     list-style: none;
 }
 
-.textoGeneral a{
-    @include textoGeneral;
-}
 
 @mixin textoGeneral2{
     font-family: "EB Garamond", serif;
@@ -53,11 +50,11 @@ $color2: #9d1d36;
     }
     .buttons{
         input{
-            @extend .textoGeneral;
-            background-color: $color2;
+            @include textoGeneral();
             padding: 10px;
+            background-color: transparent;
             &:hover{
-                zoom: 1.1;
+                box-shadow: 2px 2px 2px black;
             }
         }
     }

@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-.textoGeneral a, .cajaButtons .buttons input a {
-  font-family: "Fjalla One", sans-serif;
-  font-weight: 500px;
-  color: black;
-  letter-spacing: 0.12em;
-  line-height: 1.3em;
-  text-transform: uppercase;
-  list-style: none;
-}
-
 .cajaButtons {
   display: flex;
   align-items: center;
@@ -33,11 +23,18 @@
   color: black;
 }
 .cajaButtons .buttons input {
-  background-color: #9d1d36;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
   padding: 10px;
+  background-color: transparent;
 }
 .cajaButtons .buttons input:hover {
-  zoom: 1.1;
+  box-shadow: 2px 2px 2px black;
 }
 
 .posicion {
@@ -239,14 +236,33 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
 }
 
 .mainNosotros {
-  font-family: "EB Garamond", serif;
-  padding: 20px;
-  font-size: 20px;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
 }
-.mainNosotros .banner {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
+.mainNosotros .card .cajaNosotros {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid rgb(153, 153, 153);
+}
+.mainNosotros .card .cajaNosotros .imgTeam {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+.mainNosotros .card .cajaNosotros .col-md-8 .card-body .card-title {
+  font-size: 25px;
+  color: #9d1d36;
+}
+.mainNosotros .card .cajaNosotros .col-md-8 .card-body p {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
 }
 .mainNosotros .card .cajaTeam {
   display: flex;
@@ -259,9 +275,13 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   display: flex;
   justify-content: center;
 }
-.mainNosotros .card .cajaTeam .col-md-8 .textoNosotros .card-title {
+.mainNosotros .card .cajaTeam .col-md-8 .card-body .card-title {
   font-size: 25px;
   color: #9d1d36;
+}
+.mainNosotros .card .cajaTeam .col-md-8 .card-body p {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
 }
 .mainNosotros .cajaContacto {
   font-family: "Fjalla One", sans-serif;
@@ -280,23 +300,36 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
 .mainNosotros .cajaContacto .contacto h4 {
   margin-bottom: 20px;
 }
-.mainNosotros .cajaContacto .contacto h4:first-child {
-  margin-bottom: 50px;
+.mainNosotros .cajaContacto .contacto iframe {
+  width: 100%;
 }
 .mainNosotros .cajaContacto .inputs {
   width: 500px;
-  height: 500px;
+  height: 600px;
   margin: 20px 20px 40px 20px;
   box-shadow: 2.5px 2.5px 10px 10px rgb(194, 194, 194);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+}
+.mainNosotros .cajaContacto .inputs h4 {
+  padding: 10px;
 }
 .mainNosotros .cajaContacto .inputs .mb-3 {
-  margin: 20px;
+  width: 90%;
 }
 
+.mainInspo {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+}
 .mainInspo .cajaImgInspo {
   display: flex;
   flex-direction: row;
@@ -318,8 +351,7 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
 }
 .mainInspo .cajaImgInspo .grupoInspo a h5 {
   font-family: "EB Garamond", serif;
-  padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 80%;
   left: 10%;
@@ -371,6 +403,10 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   display: flex;
   justify-content: center;
 }
+.mainNewsletter .cajaNewsletter .card .row .col-md-8 div .form-check-input:checked {
+  background-color: #9d1d36;
+  border-color: #9d1d36;
+}
 .mainNewsletter .formNewsletter {
   display: flex;
   flex-direction: column;
@@ -386,11 +422,7 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   height: 50px;
   width: 300px;
 }
-.mainNewsletter .formNewsletter section div form-check .form-check-input {
-  --bs-form-check-bg: var(--bs-body-bg);
-  margin-top: 0em;
-}
-.mainNewsletter .formNewsletter section div form-check .form-check-input:checked {
+.mainNewsletter .formNewsletter section div .form-check .form-check-input:checked {
   background-color: #9d1d36;
   border-color: #9d1d36;
 }
@@ -473,7 +505,7 @@ footer .footerLogos .cajaLogos a img {
     display: flex;
     flex-direction: column;
   }
-  main .formNewsletter .campos {
+  .mainNewsletter .formNewsletter .campos {
     display: flex;
     flex-direction: column;
     padding: 0%;
@@ -491,27 +523,27 @@ footer .footerLogos .cajaLogos a img {
   header .navbar .cajaHeader .cajaNav .logoMenu .logoNavbar {
     width: 100%;
   }
-  main section .cajaCardsIndex .col .cardIndex .cardBody a {
+  .mainIndex section .cajaCardsIndex .col .cardIndex .cardBody a {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  main section .cajaCardsIndex {
+  .mainIndex section .cajaCardsIndex {
     margin-right: 0%;
   }
-  main section .cajaCardsIndex .col .cardIndex {
+  .mainIndex section .cajaCardsIndex .col .cardIndex {
     display: flex;
     flex-direction: row;
     margin: 10px;
   }
-  main section .cajaCardsIndex .col .cardIndex img {
+  .mainIndex section .cajaCardsIndex .col .cardIndex img {
     width: 70%;
     margin-right: 5%;
   }
-  main .cajaNewsletter .card .row {
+  .mainNewsletter .cajaNewsletter .card .row {
     padding: 0% 10% 10% 10%;
   }
-  main .cajaNewsletter .card .row .col-md-4 img {
+  .mainNewsletter .cajaNewsletter .card .row .col-md-4 img {
     padding: 0% 0% 5% 0%;
     width: 300px;
     display: flex;
@@ -532,15 +564,15 @@ footer .footerLogos .cajaLogos a img {
     width: 150px;
     margin-left: 10px;
   }
-  main .cajaContacto {
+  .mainNosotros .cajaContacto {
     display: flex;
     flex-direction: column;
     height: auto;
   }
-  main .cajaContacto .contacto {
+  .mainNosotros .cajaContacto .contacto {
     width: 90%;
   }
-  main .cajaContacto .inputs {
+  .mainNosotros .cajaContacto .inputs {
     width: 90%;
   }
 }
