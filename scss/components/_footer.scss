@@ -5,6 +5,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     background-color: $bgColor2;
+    @include textoGeneral;
     .footerTexto{
         display: flex;
         flex-direction: column;

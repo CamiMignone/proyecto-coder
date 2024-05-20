@@ -1,4 +1,5 @@
 .mainShop{
+    @include textoGeneral;
     .carousel{
         .carousel-inner{
             .carousel-item{
@@ -29,6 +30,8 @@
                 .cardShop{
                     margin-top: 60px;
                     a{
+                        @include textoGeneral;
+                        text-decoration: none;
                         img{
                             width: 100%;
                             height: 400px;

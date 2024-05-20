@@ -13,7 +13,7 @@ $bgColor: #F4DECB;
 $bgColor2: #c25848;
 $color2: #9d1d36;
 
-.textoGeneral{
+@mixin textoGeneral{
     font-family: "Fjalla One", sans-serif;
     font-weight: $fontWeight;
     color: $fontColor;
@@ -24,18 +24,15 @@ $color2: #9d1d36;
 }
 
 .textoGeneral a{
-    @extend .textoGeneral;
-    text-decoration: none;
+    @include textoGeneral;
 }
 
-.textoNosotros{
+@mixin textoGeneral2{
     font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 19px;
     padding: 20px;
+    font-size: 20px;
 }
+
 
 .cajaButtons{
     display: flex;

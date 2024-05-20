@@ -1,4 +1,5 @@
 .containerNews{
+    @include textoGeneral;
     background-color: $bgColor;
     .container{
         .logoMenu{
@@ -10,7 +11,8 @@
     }
 }
 
-main{
+.mainNewsletter{
+    @include textoGeneral;
     .cajaNewsletter{
         display: flex;
         flex-direction: column;

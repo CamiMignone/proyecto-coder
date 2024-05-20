@@ -1,5 +1,5 @@
 header {
-    @extend .textoGeneral;
+    @include textoGeneral;
     font-size: 20px;
     .navbar {
         --bs-navbar-padding-y: 0rem;

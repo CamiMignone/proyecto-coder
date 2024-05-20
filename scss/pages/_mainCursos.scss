@@ -1,4 +1,5 @@
-main{
+.mainCursos{
+    @include textoGeneral;
     .cajaCursos{
         .bannerCurso{
             width: 100%;
@@ -23,6 +24,8 @@ main{
                         .cardCurso{
                             border: none;
                             a{
+                                @include textoGeneral;
+                                text-decoration: none;
                                 display: flex;
                                 flex-direction: row;
                                 border: none;

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.textoGeneral, header, header a, .cajaButtons .buttons input, .cajaButtons .buttons input a, .textoGeneral a, header a, header a a {
+.textoGeneral a, .cajaButtons .buttons input a {
   font-family: "Fjalla One", sans-serif;
   font-weight: 500px;
   color: black;
@@ -12,19 +12,6 @@
   line-height: 1.3em;
   text-transform: uppercase;
   list-style: none;
-}
-
-.textoGeneral a, header a, header a a, .cajaButtons .buttons input a {
-  text-decoration: none;
-}
-
-.textoNosotros, .mainInspo .cajaImgInspo .grupoInspo a h5 {
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 19px;
-  padding: 20px;
 }
 
 .cajaButtons {
@@ -61,6 +48,13 @@
 }
 
 header {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
   font-size: 20px;
 }
 header .navbar {
@@ -95,68 +89,111 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   font-weight: 600;
 }
 
-main section .cajaCardsIndex .col .cardIndex img {
+.mainIndex {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+}
+.mainIndex section .cajaCardsIndex .col .cardIndex img {
   height: 400px;
   width: 300px;
   object-fit: cover;
   border-top-left-radius: 0%;
   border-top-right-radius: 0%;
 }
-main section .cajaCardsIndex .col .cardIndex .cardBody {
+.mainIndex section .cajaCardsIndex .col .cardIndex .cardBody {
   padding: 5% 0%;
 }
-main section .cajaCardsIndex .col .cardIndex .cardBody .card-title {
+.mainIndex section .cajaCardsIndex .col .cardIndex .cardBody .card-title {
   font-size: 15px;
   opacity: 75%;
 }
-main section .cajaCardsIndex .col .cardIndex .cardBody a {
+.mainIndex section .cajaCardsIndex .col .cardIndex .cardBody a {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
   font-size: 17px;
 }
-main section .cajaCardsIndex .col .cardIndex .cardBody a:hover {
+.mainIndex section .cajaCardsIndex .col .cardIndex .cardBody a:hover {
   text-decoration: underline;
 }
 
-main .cajaCursos .bannerCurso {
+.mainCursos {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+}
+.mainCursos .cajaCursos .bannerCurso {
   width: 100%;
   height: 600px;
   object-fit: cover;
 }
-main .cajaCursos .tituloCurso {
+.mainCursos .cajaCursos .tituloCurso {
   display: flex;
   justify-content: center;
 }
-main .cajaCursos .tituloCurso h2 {
+.mainCursos .cajaCursos .tituloCurso h2 {
   margin-top: 100px;
   border-bottom: 1px solid black;
   width: 60%;
   color: #9d1d36;
 }
-main .panelCurso div .cajaCardsCursos .col .cardCurso {
+.mainCursos .panelCurso div .cajaCardsCursos .col .cardCurso {
   border: none;
 }
-main .panelCurso div .cajaCardsCursos .col .cardCurso a {
+.mainCursos .panelCurso div .cajaCardsCursos .col .cardCurso a {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   border: none;
   font-size: 15px;
 }
-main .panelCurso div .cajaCardsCursos .col .cardCurso a:hover {
+.mainCursos .panelCurso div .cajaCardsCursos .col .cardCurso a:hover {
   opacity: 50%;
 }
-main .panelCurso div .cajaCardsCursos .col .cardCurso a img {
+.mainCursos .panelCurso div .cajaCardsCursos .col .cardCurso a img {
   width: 70px;
   height: 70px;
   margin: 20px;
 }
-main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h3 {
+.mainCursos .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h3 {
   font-size: 25px;
   font-weight: 600;
 }
-main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
+.mainCursos .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
   font-size: 18px;
   font-weight: 500;
 }
 
+.mainShop {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+}
 .mainShop .carousel .carousel-inner .carousel-item {
   position: relative;
 }
@@ -180,6 +217,16 @@ main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
 .mainShop .container .row .col .cardShop {
   margin-top: 60px;
 }
+.mainShop .container .row .col .cardShop a {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+}
 .mainShop .container .row .col .cardShop a img {
   width: 100%;
   height: 400px;
@@ -191,40 +238,52 @@ main .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
   border: 2px solid transparent;
 }
 
-main .banner {
+.mainNosotros {
+  font-family: "EB Garamond", serif;
+  padding: 20px;
+  font-size: 20px;
+}
+.mainNosotros .banner {
   width: 100%;
   height: 600px;
   object-fit: cover;
 }
-main .card .cajaTeam {
+.mainNosotros .card .cajaTeam {
   display: flex;
   flex-direction: row;
   padding: 20px;
   align-items: center;
   background-color: #F4DECB;
 }
-main .card .cajaTeam .imgTeam {
+.mainNosotros .card .cajaTeam .imgTeam {
   display: flex;
   justify-content: center;
 }
-main .card .cajaTeam .col-md-8 .textoNosotros .card-title, main .card .cajaTeam .col-md-8 .mainInspo .cajaImgInspo .grupoInspo a h5 .card-title, .mainInspo .cajaImgInspo .grupoInspo a main .card .cajaTeam .col-md-8 h5 .card-title {
+.mainNosotros .card .cajaTeam .col-md-8 .textoNosotros .card-title {
   font-size: 25px;
   color: #9d1d36;
 }
-main .cajaContacto {
+.mainNosotros .cajaContacto {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   height: auto;
 }
-main .cajaContacto .contacto h4 {
+.mainNosotros .cajaContacto .contacto h4 {
   margin-bottom: 20px;
 }
-main .cajaContacto .contacto h4:first-child {
+.mainNosotros .cajaContacto .contacto h4:first-child {
   margin-bottom: 50px;
 }
-main .cajaContacto .inputs {
+.mainNosotros .cajaContacto .inputs {
   width: 500px;
   height: 500px;
   margin: 20px 20px 40px 20px;
@@ -234,7 +293,7 @@ main .cajaContacto .inputs {
   flex-direction: column;
   justify-content: space-evenly;
 }
-main .cajaContacto .inputs .mb-3 {
+.mainNosotros .cajaContacto .inputs .mb-3 {
   margin: 20px;
 }
 
@@ -258,13 +317,22 @@ main .cajaContacto .inputs .mb-3 {
   height: 800px;
 }
 .mainInspo .cajaImgInspo .grupoInspo a h5 {
+  font-family: "EB Garamond", serif;
+  padding: 20px;
+  font-size: 20px;
   position: absolute;
   top: 80%;
   left: 10%;
-  font-size: 13px;
 }
 
 .containerNews {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
   background-color: #F4DECB;
 }
 .containerNews .container .logoMenu .logoNavbarNews {
@@ -272,48 +340,57 @@ main .cajaContacto .inputs .mb-3 {
   height: 100px;
 }
 
-main .cajaNewsletter {
+.mainNewsletter {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+}
+.mainNewsletter .cajaNewsletter {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
 }
-main .cajaNewsletter .card {
+.mainNewsletter .cajaNewsletter .card {
   border: none;
   border-top: 1px solid rgb(180, 180, 180);
   --bs-card-border-radius: 0px;
 }
-main .cajaNewsletter .card .row .col-md-4 {
+.mainNewsletter .cajaNewsletter .card .row .col-md-4 {
   display: flex;
   justify-content: center;
 }
-main .cajaNewsletter .card .row .col-md-4 img {
+.mainNewsletter .cajaNewsletter .card .row .col-md-4 img {
   padding-right: 15px;
 }
-main .cajaNewsletter .card .row .col-md-8 {
+.mainNewsletter .cajaNewsletter .card .row .col-md-8 {
   display: flex;
   justify-content: center;
 }
-main .formNewsletter {
+.mainNewsletter .formNewsletter {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .formNewsletter .campos {
+.mainNewsletter .formNewsletter .campos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
   padding: 30px;
 }
-main .formNewsletter .campos div input {
+.mainNewsletter .formNewsletter .campos div input {
   height: 50px;
   width: 300px;
 }
-main .formNewsletter section div form-check .form-check-input {
+.mainNewsletter .formNewsletter section div form-check .form-check-input {
   --bs-form-check-bg: var(--bs-body-bg);
   margin-top: 0em;
 }
-main .formNewsletter section div form-check .form-check-input:checked {
+.mainNewsletter .formNewsletter section div form-check .form-check-input:checked {
   background-color: #9d1d36;
   border-color: #9d1d36;
 }
@@ -325,6 +402,13 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   background-color: #c25848;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
 }
 footer .footerTexto {
   display: flex;
