@@ -4,23 +4,57 @@
   box-sizing: border-box;
 }
 
-.cajaButtons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 10px;
-}
-.cajaButtons .buttons1 {
-  background-color: #9d1d36;
-  padding: 15px;
-  font-size: 18px;
-}
-.cajaButtons .buttons1 a {
+a {
   text-decoration: none;
   color: #F8EEE7;
 }
-.cajaButtons .buttons1 a:hover {
+a:hover {
   color: black;
+}
+a .cajaButtons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+a .cajaButtons .buttons1 {
+  background-color: #9d1d36;
+  padding: 15px;
+  font-size: 18px;
+  width: 260px;
+  transition: all 0.5s;
+}
+a .cajaButtons .buttons1:hover {
+  width: 310px;
+}
+a .cajaButtons .buttons2 {
+  background-color: #9d1d36;
+  padding: 15px;
+  font-size: 18px;
+  width: 120px;
+  transition: all 0.5s;
+}
+a .cajaButtons .buttons2:hover {
+  width: 170px;
+}
+a .cajaButtons .buttons input {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500px;
+  color: black;
+  letter-spacing: 0.12em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 10px;
+  background-color: transparent;
+}
+a .cajaButtons .buttons input:hover {
+  box-shadow: 2px 2px 2px black;
+}
+
+.cajaButtons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 .cajaButtons .buttons input {
   font-family: "Fjalla One", sans-serif;
@@ -141,12 +175,15 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
 .mainCursos .cajaCursos .tituloCurso {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .mainCursos .cajaCursos .tituloCurso h2 {
-  margin-top: 100px;
   border-bottom: 1px solid black;
   width: 60%;
   color: #9d1d36;
+}
+.mainCursos .panelCurso {
+  margin-bottom: 100px;
 }
 .mainCursos .panelCurso div .cajaCardsCursos .col .cardCurso {
   border: none;
@@ -514,6 +551,12 @@ footer .footerLogos .cajaLogos a img {
   .mainShop .carousel .carousel-inner .carousel-item img {
     height: 300px;
   }
+  .mainNosotros .cajaContacto {
+    margin: 20px 0px 20px 20px;
+  }
+  .mainNosotros .cajaContacto .inputs {
+    margin: 0px 20px;
+  }
 }
 @media screen and (max-width: 576px) {
   header .navbar .cajaHeader .cajaNav {
@@ -525,6 +568,15 @@ footer .footerLogos .cajaLogos a img {
   }
   .mainIndex section .cajaCardsIndex .col .cardIndex .cardBody a {
     font-size: 15px;
+  }
+  .mainCursos .cajaCursos .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h3 {
+    font-size: 20px;
+  }
+  .mainCursos .cajaCursos .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody h4 {
+    font-size: 15px;
+  }
+  .mainCursos .cajaCursos .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody p {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -571,9 +623,13 @@ footer .footerLogos .cajaLogos a img {
   }
   .mainNosotros .cajaContacto .contacto {
     width: 90%;
+    margin-bottom: 20px;
   }
   .mainNosotros .cajaContacto .inputs {
     width: 90%;
+  }
+  .mainCursos .cajaCursos .bannerCurso {
+    height: auto;
   }
 }
 @media screen and (min-width: 768px) {

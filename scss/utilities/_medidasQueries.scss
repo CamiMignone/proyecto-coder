@@ -55,6 +55,14 @@
             }
         }
     }
+    .mainNosotros{
+        .cajaContacto{
+            margin: 20px 0px 20px 20px;
+            .inputs{
+                margin: 0px 20px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -85,6 +93,33 @@
                         }
                         }
                     }
+                }
+            }
+        }
+        .mainCursos{
+            .cajaCursos{
+                .panelCurso{
+                    div{
+                        .cajaCardsCursos{
+                            .col{
+                                .cardCurso{
+                                    a{
+                                        .cardBody{
+                                            h3{
+                                                font-size: 20px;
+                                            }
+                                            h4{
+                                                font-size: 15px;
+                                        }
+                                        p{
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 }
             }
         }
@@ -161,10 +196,18 @@
             flex-direction: column;
             height: auto;
             .contacto{
-                width: 90%
+                width: 90%;
+                margin-bottom: 20px;
             }
             .inputs{
-                width: 90%
+                width: 90%;
+            }
+        }
+    }
+    .mainCursos{
+        .cajaCursos{
+            .bannerCurso{
+                height: auto;
             }
         }
     }

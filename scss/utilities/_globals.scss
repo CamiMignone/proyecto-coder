@@ -30,24 +30,53 @@ $color2: #9d1d36;
     font-size: 20px;
 }
 
+a{
+    text-decoration: none;
+    color: $fontColor2;
+    &:hover{
+        color: $fontColor;
+    }
+    .cajaButtons{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        .buttons1{
+            background-color: $color2;
+            padding: 15px;
+            font-size: 18px;
+            width: 260px;
+            transition: all 0.5s;
+            &:hover{
+                width: 310px;
+            }
+        }
+        .buttons2{
+            background-color: $color2;
+            padding: 15px;
+            font-size: 18px;
+            width: 120px;
+            transition: all 0.5s;
+            &:hover{
+                width: 170px;
+            }
+        }
+        .buttons{
+            input{
+                @include textoGeneral();
+                padding: 10px;
+                background-color: transparent;
+                &:hover{
+                    box-shadow: 2px 2px 2px black;
+                }
+            }
+        }
+    }
+}
 
 .cajaButtons{
     display: flex;
-    align-items: center;
     justify-content: center;
     padding-bottom: 10px;
-    .buttons1{
-        background-color: $color2;
-        padding: 15px;
-        font-size: 18px;
-            a{
-                text-decoration: none;
-                color: $fontColor2;
-                &:hover{
-                    color: $fontColor;
-                }
-        }
-    }
     .buttons{
         input{
             @include textoGeneral();
@@ -59,6 +88,8 @@ $color2: #9d1d36;
         }
     }
 }
+
+
 
 .posicion{
     padding-left: 10%;
