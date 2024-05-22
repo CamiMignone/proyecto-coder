@@ -288,10 +288,8 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   align-items: center;
   border: 1px solid rgb(153, 153, 153);
 }
-.mainNosotros .card .cajaNosotros .imgTeam {
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
+.mainNosotros .card .cajaNosotros .videoTeam video {
+  width: 100%;
 }
 .mainNosotros .card .cajaNosotros .col-md-8 .card-body .card-title {
   font-size: 25px;
@@ -391,7 +389,8 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   font-size: 15px;
   position: absolute;
   top: 80%;
-  left: 10%;
+  text-align: center;
+  padding: 20px;
 }
 
 .containerNews {
@@ -577,6 +576,9 @@ footer .footerLogos .cajaLogos a img {
   }
   .mainCursos .cajaCursos .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody p {
     font-size: 12px;
+  }
+  .mainInspo .cajaImgInspo .grupoInspo a h5 {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 768px) {

@@ -7,10 +7,10 @@
             padding: 20px;
             align-items: center;
             border: 1px solid rgb(153, 153, 153);
-            .imgTeam{
-                display: flex;
-                justify-content: center;
-                border-radius: 5px;
+            .videoTeam{
+                video{
+                    width: 100%;
+                }
             }
             .col-md-8{
                 .card-body{
