@@ -239,9 +239,9 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   margin: 0%;
   position: absolute;
   top: 47%;
-  left: 80%;
+  right: 20%;
   padding: 0%;
-  font-size: 25px;
+  font-size: 30px;
 }
 .mainShop h2 {
   margin-left: 20%;
@@ -281,6 +281,10 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   text-transform: uppercase;
   list-style: none;
 }
+.mainNosotros .card {
+  --animate-duration: 1s;
+  --animate-delay: 0.5s;
+}
 .mainNosotros .card .cajaNosotros {
   display: flex;
   flex-direction: row;
@@ -297,7 +301,8 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
 }
 .mainNosotros .card .cajaNosotros .col-md-8 .card-body p {
   font-family: "EB Garamond", serif;
-  font-size: 15px;
+  font-size: 18px;
+  text-transform: none;
 }
 .mainNosotros .card .cajaTeam {
   display: flex;
@@ -316,7 +321,8 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
 }
 .mainNosotros .card .cajaTeam .col-md-8 .card-body p {
   font-family: "EB Garamond", serif;
-  font-size: 15px;
+  font-size: 18px;
+  text-transform: none;
 }
 .mainNosotros .cajaContacto {
   font-family: "Fjalla One", sans-serif;
@@ -331,6 +337,8 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   justify-content: space-evenly;
   align-items: center;
   height: auto;
+  --animate-duration: 2s;
+  --animate-delay: 4s;
 }
 .mainNosotros .cajaContacto .contacto h4 {
   margin-bottom: 20px;
@@ -386,11 +394,12 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
 }
 .mainInspo .cajaImgInspo .grupoInspo a h5 {
   font-family: "EB Garamond", serif;
-  font-size: 15px;
+  font-size: 18px;
   position: absolute;
   top: 80%;
   text-align: center;
   padding: 20px;
+  text-transform: none;
 }
 
 .containerNews {
@@ -481,7 +490,7 @@ footer {
 footer .footerTexto {
   display: flex;
   flex-direction: column;
-  padding: 20px 20px 0 20px;
+  padding: 50px 20px 0 20px;
   font-size: 15px;
 }
 footer .footerTexto .enlaces div {
@@ -517,7 +526,13 @@ footer .footerLogos .cajaLogos a img {
   width: 30px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .mainInspo .cajaImgInspo .grupoInspo a img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 991px) {
   header .navbar {
     --bs-navbar-toggler-focus-width: 0px;
     --bs-navbar-toggler-border-color: 0px;
@@ -533,13 +548,13 @@ footer .footerLogos .cajaLogos a img {
     display: grid;
     justify-items: center;
   }
-  .mainInspo .cajaImgInspo .grupoInspo a img {
-    width: 100%;
-    height: 100%;
-  }
   footer {
     display: flex;
     flex-direction: column;
+  }
+  footer .footerLogos .cajaLogo img {
+    height: 150px;
+    width: 150px;
   }
   .mainNewsletter .formNewsletter .campos {
     display: flex;
@@ -555,6 +570,65 @@ footer .footerLogos .cajaLogos a img {
   }
   .mainNosotros .cajaContacto .inputs {
     margin: 0px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainIndex section .cajaCardsIndex {
+    margin-right: 0%;
+  }
+  .mainIndex section .cajaCardsIndex .col .cardIndex {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  .mainIndex section .cajaCardsIndex .col .cardIndex img {
+    width: 70%;
+    margin-right: 3%;
+  }
+  .mainNewsletter .cajaNewsletter .card .row {
+    padding: 0% 10% 10% 10%;
+  }
+  .mainNewsletter .cajaNewsletter .card .row .col-md-4 img {
+    padding: 0% 0% 5% 0%;
+    width: 300px;
+    display: flex;
+    justify-items: center;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footerTexto .enlaces {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footerTexto .enlaces div {
+    padding: 0%;
+  }
+  .mainShop h2 {
+    width: 150px;
+    margin-left: 10px;
+  }
+  .mainNosotros .card {
+    text-align: center;
+  }
+  .mainNosotros .cajaContacto {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .mainNosotros .cajaContacto .contacto {
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .mainNosotros .cajaContacto .inputs {
+    width: 90%;
+  }
+  .mainCursos .cajaCursos .bannerCurso {
+    height: auto;
+  }
+  .mainInspo .cajaImgInspo .grupoInspo a h5 {
+    display: none;
   }
 }
 @media screen and (max-width: 576px) {
@@ -577,61 +651,8 @@ footer .footerLogos .cajaLogos a img {
   .mainCursos .cajaCursos .panelCurso div .cajaCardsCursos .col .cardCurso a .cardBody p {
     font-size: 12px;
   }
-  .mainInspo .cajaImgInspo .grupoInspo a h5 {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .mainIndex section .cajaCardsIndex {
-    margin-right: 0%;
-  }
-  .mainIndex section .cajaCardsIndex .col .cardIndex {
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-  }
-  .mainIndex section .cajaCardsIndex .col .cardIndex img {
-    width: 70%;
-    margin-right: 5%;
-  }
-  .mainNewsletter .cajaNewsletter .card .row {
-    padding: 0% 10% 10% 10%;
-  }
-  .mainNewsletter .cajaNewsletter .card .row .col-md-4 img {
-    padding: 0% 0% 5% 0%;
-    width: 300px;
-    display: flex;
-    justify-items: center;
-  }
-  footer .footerTexto .enlaces div {
-    display: grid;
-    justify-items: center;
-  }
-  footer .footerTexto .enlaces div ul {
-    display: grid;
-    justify-items: center;
-  }
   .mainShop .carousel .carousel-inner .carousel-item h5 {
-    z-index: -2;
-  }
-  .mainShop h2 {
-    width: 150px;
-    margin-left: 10px;
-  }
-  .mainNosotros .cajaContacto {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-  }
-  .mainNosotros .cajaContacto .contacto {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-  .mainNosotros .cajaContacto .inputs {
-    width: 90%;
-  }
-  .mainCursos .cajaCursos .bannerCurso {
-    height: auto;
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {

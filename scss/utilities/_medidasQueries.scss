@@ -1,4 +1,19 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+    .mainInspo{
+        .cajaImgInspo{
+            .grupoInspo{
+                a{
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
     header{
         .navbar{
             --bs-navbar-toggler-focus-width: 0px;
@@ -18,21 +33,17 @@
             }
         }
     }
-    .mainInspo{
-        .cajaImgInspo{
-            .grupoInspo{
-                a{
-                    img{
-                        width: 100%;
-                        height: 100%;
-                    }
-                }
-            }
-        }
-    }
     footer {
         display: flex;
         flex-direction: column;
+        .footerLogos{
+            .cajaLogo{
+                img{
+                    height: 150px;
+                    width: 150px;
+                }
+            }
+        }
     }
     .mainNewsletter{
         .formNewsletter{
@@ -60,6 +71,98 @@
             margin: 20px 0px 20px 20px;
             .inputs{
                 margin: 0px 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainIndex{
+        section{
+            .cajaCardsIndex{
+                margin-right:0%;
+                .col{
+                    .cardIndex{
+                        display: flex;
+                        flex-direction: row;
+                        margin: 10px;
+                        img{
+                            width: 70%;
+                            margin-right: 3%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mainNewsletter{
+        .cajaNewsletter{
+            .card{
+                .row{
+                    padding: 0% 10% 10% 10%;
+                    .col-md-4{
+                        img{
+                            padding: 0% 0% 5% 0%;
+                            width: 300px;
+                            display: flex;
+                            justify-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        text-align: center;
+        .footerTexto{
+            .enlaces{
+                display: flex;
+                flex-direction: column;
+                div{
+                    padding: 0%;
+                }
+            }
+        }
+    }
+    .mainShop{
+        h2{
+            width: 150px;
+            margin-left: 10px;
+        }
+    }
+    .mainNosotros{
+        .card{
+            text-align: center;
+        }
+        .cajaContacto{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            .contacto{
+                width: 90%;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .inputs{
+                width: 90%;
+            }
+        }
+    }
+    .mainCursos{
+        .cajaCursos{
+            .bannerCurso{
+                height: auto;
+            }
+        }
+    }
+    .mainInspo{
+        .cajaImgInspo{
+            .grupoInspo{
+                a{
+                    h5{
+                        display: none;
+                    }
+                }
             }
         }
     }
@@ -123,105 +226,17 @@
                 }
             }
         }
-        .mainInspo{
-            .cajaImgInspo{
-                .grupoInspo{
-                    a{
+        .mainShop{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
                         h5{
-                            font-size: 10px;
+                            display: none;
                         }
                     }
                 }
             }
         }
-}
-
-@media screen and (max-width: 768px) {
-    .mainIndex{
-        section{
-            .cajaCardsIndex{
-                margin-right:0%;
-                .col{
-                    .cardIndex{
-                        display: flex;
-                        flex-direction: row;
-                        margin: 10px;
-                        img{
-                            width: 70%;
-                            margin-right: 5%;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .mainNewsletter{
-        .cajaNewsletter{
-            .card{
-                .row{
-                    padding: 0% 10% 10% 10%;
-                    .col-md-4{
-                        img{
-                            padding: 0% 0% 5% 0%;
-                            width: 300px;
-                            display: flex;
-                            justify-items: center;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    footer{
-        .footerTexto{
-            .enlaces{
-                div{
-                    display: grid;
-                    justify-items: center;
-                    ul{
-                        display: grid;
-                        justify-items: center;
-                    }
-                }
-            }
-        }
-    }
-    .mainShop{
-        .carousel{
-            .carousel-inner{
-                .carousel-item{
-                    h5{
-                        z-index: -2;
-                    }
-                }
-            }
-        }
-        h2{
-            width: 150px;
-            margin-left: 10px;
-        }
-    }
-    .mainNosotros{
-        .cajaContacto{
-            display: flex;
-            flex-direction: column;
-            height: auto;
-            .contacto{
-                width: 90%;
-                margin-bottom: 20px;
-            }
-            .inputs{
-                width: 90%;
-            }
-        }
-    }
-    .mainCursos{
-        .cajaCursos{
-            .bannerCurso{
-                height: auto;
-            }
-        }
-    }
 }
 
 @media screen and (min-width: 768px) {
