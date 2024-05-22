@@ -19,16 +19,21 @@
             --bs-navbar-toggler-focus-width: 0px;
             --bs-navbar-toggler-border-color: 0px;
             .cajaHeader{
+                height: 100px;
+                .cajaNav{
+                        .logoMenu{
+                            .logoNavbar{
+                                height: 100px;
+                                width: auto;
+                            }
+                        }
+                }
                 .menuNav{
                     position: absolute;
                     top: 100%;
                     background-color:#F4DECB;
                     width: 100%;
                     z-index: 2;
-                    ul{
-                        display: grid;
-                        justify-items: center;
-                    }
                 }
             }
         }
@@ -77,17 +82,33 @@
 }
 
 @media screen and (max-width: 768px) {
+    header{
+        .navbar{
+            .cajaHeader{
+                align-items: start;
+                .cajaNav{
+                    margin: 0px 10px;
+                }
+            }
+        }
+    }
     .mainIndex{
         section{
+            margin: 0%;
+            max-width: 100%;
+            padding: 0%;
             .cajaCardsIndex{
                 margin-right:0%;
                 .col{
+                    border-bottom: 1px solid rgb(224, 224, 224);
+                    padding: 0%;
                     .cardIndex{
                         display: flex;
                         flex-direction: row;
                         margin: 10px;
                         img{
-                            width: 70%;
+                            width: 40%;
+                            height: auto;
                             margin-right: 3%;
                         }
                     }

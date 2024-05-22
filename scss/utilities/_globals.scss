@@ -92,9 +92,12 @@ a{
 
 
 .posicion{
-    padding-left: 10%;
-    padding-top: 3%;
+    padding-left: 5%;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-size: $fontSize;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin: 20px 0px;
 }
 

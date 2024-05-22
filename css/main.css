@@ -72,10 +72,13 @@ a .cajaButtons .buttons input:hover {
 }
 
 .posicion {
-  padding-left: 10%;
-  padding-top: 3%;
+  padding-left: 5%;
+  padding-top: 20px;
   padding-bottom: 20px;
   font-size: 20px;
+  border-top: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin: 20px 0px;
 }
 
 header {
@@ -87,6 +90,7 @@ header {
   text-transform: uppercase;
   list-style: none;
   font-size: 20px;
+  box-shadow: 0px 2px 4px rgb(190, 190, 190);
 }
 header .navbar {
   --bs-navbar-padding-y: 0rem;
@@ -96,6 +100,7 @@ header .navbar .cajaHeader {
   flex-direction: column;
   background-color: #F4DECB;
   --bs-gutter-x: 0em;
+  text-align: center;
 }
 header .navbar .cajaHeader .cajaNav .buttonNav {
   border: none;
@@ -128,6 +133,7 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   line-height: 1.3em;
   text-transform: uppercase;
   list-style: none;
+  margin: 20px;
 }
 .mainIndex section .cajaCardsIndex .col .cardIndex img {
   height: 400px;
@@ -490,11 +496,14 @@ footer {
 footer .footerTexto {
   display: flex;
   flex-direction: column;
-  padding: 50px 20px 0 20px;
+  padding: 50px 20px 0 30px;
   font-size: 15px;
 }
 footer .footerTexto .enlaces div {
   padding: 20px;
+}
+footer .footerTexto .enlaces div h4 {
+  font-size: 22px;
 }
 footer .footerTexto .enlaces div ul {
   padding: 0%;
@@ -537,16 +546,19 @@ footer .footerLogos .cajaLogos a img {
     --bs-navbar-toggler-focus-width: 0px;
     --bs-navbar-toggler-border-color: 0px;
   }
+  header .navbar .cajaHeader {
+    height: 100px;
+  }
+  header .navbar .cajaHeader .cajaNav .logoMenu .logoNavbar {
+    height: 100px;
+    width: auto;
+  }
   header .navbar .cajaHeader .menuNav {
     position: absolute;
     top: 100%;
     background-color: #F4DECB;
     width: 100%;
     z-index: 2;
-  }
-  header .navbar .cajaHeader .menuNav ul {
-    display: grid;
-    justify-items: center;
   }
   footer {
     display: flex;
@@ -573,8 +585,23 @@ footer .footerLogos .cajaLogos a img {
   }
 }
 @media screen and (max-width: 768px) {
+  header .navbar .cajaHeader {
+    align-items: start;
+  }
+  header .navbar .cajaHeader .cajaNav {
+    margin: 0px 10px;
+  }
+  .mainIndex section {
+    margin: 0%;
+    max-width: 100%;
+    padding: 0%;
+  }
   .mainIndex section .cajaCardsIndex {
     margin-right: 0%;
+  }
+  .mainIndex section .cajaCardsIndex .col {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding: 0%;
   }
   .mainIndex section .cajaCardsIndex .col .cardIndex {
     display: flex;
@@ -582,7 +609,8 @@ footer .footerLogos .cajaLogos a img {
     margin: 10px;
   }
   .mainIndex section .cajaCardsIndex .col .cardIndex img {
-    width: 70%;
+    width: 40%;
+    height: auto;
     margin-right: 3%;
   }
   .mainNewsletter .cajaNewsletter .card .row {
