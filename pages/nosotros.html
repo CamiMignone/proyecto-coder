@@ -14,7 +14,6 @@
       <!-- Link animation -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Link CSS -->
-  <link rel="stylesheet" href="./../css/styles.css">
   <link rel="stylesheet" href="./../css/main.css">
   <!-- Head -->
   <link rel="icon" type="image/png" href="./../assets/img/LOGO.png">
@@ -43,11 +42,25 @@
             <li class="nav-item">
               <a class="nav-link" href="./../pages/inspo.html">Inspo</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./../pages/shop.html">Shop</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./../pages/shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./../pages/shop.html">Shop</a></li>
+                <li><a class="dropdown-item" href="./../pages/shop.html">Novedades</a></li>
+                <li><a class="dropdown-item" href="./../pages/shop.html">Last chance</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./../pages/cursos.html">Cursos</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./../pages/cursos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./../pages/cursos.html">Cursos</a></li>
+                <li><a class="dropdown-item" href="./../pages/cursos.html">Carreras</a></li>
+                <li><a class="dropdown-item" href="./../pages/cursos.html">Trabajos</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./../pages/nosotros.html">Nosotros</a>
@@ -91,7 +104,7 @@
     <section data-aos="fade-up" class="card mb-3 bg-transparent border-0 ">
       <div class="row g-0 cajaTeam">
         <div class="col-md-4 imgTeam">
-          <img src="./../assets/img/team.jpg" class="img-fluid" alt="imgTeam">
+          <img src="./../assets/img/team.jpg" class="img-fluid" alt="imagen team">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -163,10 +176,10 @@
           <h4>Enlaces Rápidos</h4>
           <ul>
             <li><a href="./../index.html">Actualidad</a></li>
-            <li><a href="./../pages/inspo.html">Inspo</a></li>
-            <li><a target="_blank" href="./../pages/shop.html">Shop</a></li>
-            <li><a target="_blank" href="./../pages/cursos.html">Cursos</a></li>
-            <li><a href="./../pages/nosotros.html">Nosotros</a></li>
+            <li><a href="./pages/inspo.html">Inspo</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="./pages/cursos.html">Cursos</a></li>
+            <li><a href="#top">Nosotros</a></li>
           </ul>
         </div>
         <div>
@@ -180,18 +193,18 @@
     <section class="footerLogos">
       <div class="cajaLogo">
         <a href="./../index.html">
-          <img src="./../assets/img/CRèER.png" alt="logoPagina">
+          <img src="./../assets/img/CRèER.png" alt="logo CRèER">
         </a>
       </div>
       <div class="cajaLogos">
         <a href="https://www.instagram.com/">
-          <img src="./../assets/img/instagram.png" alt="instagram">
+          <img src="./../assets/img/instagram.png" alt="logo instagram">
         </a>
         <a href="https://www.facebook.com/">
-          <img src="./../assets/img/facebook.png" alt="facebook">
+          <img src="./../assets/img/facebook.png" alt="logo facebook">
         </a>
         <a href="https://web.whatsapp.com/">
-          <img src="./../assets/img/whatsapp.png" alt="whatsapp">
+          <img src="./../assets/img/whatsapp.png" alt="logo whatsapp">
         </a>
       </div>
       <p>© 2024 Creèr. Todos los derechos reservados.</p>

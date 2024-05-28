@@ -12,7 +12,6 @@
       <!-- Link animation -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Link CSS -->
-    <link rel="stylesheet" href="./../css/styles.css">
     <link rel="stylesheet" href="./../css/main.css">
     <!-- Head -->
     <link rel="icon" type="image/png" href="./../assets/img/LOGO.png">
@@ -34,20 +33,37 @@
           </div>
           <div class="collapse navbar-collapse menuNav" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#top">Novedades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#top">Last chance</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#top">Contacto</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../index.html">Actualidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/inspo.html">Inspo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./../pages/shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./../pages/shop.html">Shop</a></li>
+                  <li><a class="dropdown-item" href="./../pages/shop.html">Novedades</a></li>
+                  <li><a class="dropdown-item" href="./../pages/shop.html">Last chance</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./../pages/cursos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./../pages/cursos.html">Cursos</a></li>
+                  <li><a class="dropdown-item" href="./../pages/cursos.html">Carreras</a></li>
+                  <li><a class="dropdown-item" href="./../pages/cursos.html">Trabajos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../pages/nosotros.html">Nosotros</a>
+              </li>
             </ul>
-            </div>
+          </div>
         </section>
         </nav>
   </header>
@@ -55,15 +71,15 @@
     <section id="carouselExample" class="carousel carousel-dark slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./../assets/img/tela25.jpg" class="d-block w-100" alt="telaCarousel">
+            <img src="./../assets/img/tela25.jpg" class="d-block w-100" alt="tela carousel">
                 <h5>Telas</h5>
           </div>
           <div class="carousel-item">
-            <img src="./../assets/img/objeto2.jpg" class="d-block w-100" alt="hiloCarousel">
+            <img src="./../assets/img/objeto2.jpg" class="d-block w-100" alt="hilo carousel">
                 <h5>Hilos</h5>
           </div>
           <div class="carousel-item">
-            <img src="./../assets/img/costura1.jpg" class="d-block w-100" alt="tejidoCarousel">
+            <img src="./../assets/img/costura1.jpg" class="d-block w-100" alt="tejido carousel">
                 <h5>Patrones</h5>
           </div>
         </div>
@@ -83,7 +99,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela2.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela2.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Lino</h5>
                   <p class="card-text">Ligero y resistente, ideal para prendas de estilo informal y fresco.</p>
@@ -94,7 +110,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela11.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela11.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Poliéster</h5>
                   <p class="card-text">Resistente y fácil de cuidar, adecuado para una variedad de prendas y proyectos.</p>
@@ -105,7 +121,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela13.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela13.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Seda</h5>
                   <p class="card-text">Elegante y suave al tacto, ideal para prendas de noche.</p>
@@ -116,7 +132,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela10.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela10.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Algodón</h5>
                   <p class="card-text">Fresco y transpirable, perfecto para ropa casual y de verano.</p>
@@ -127,7 +143,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela8.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela8.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Satén</h5>
                   <p class="card-text">Brillante y lujoso, excelente para prendas de noche y ocasiones especiales.</p>
@@ -138,7 +154,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela14.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela14.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Lana</h5>
                   <p class="card-text">Cálida y duradera, perfecta para prendas de invierno y entretiempo.</p>
@@ -149,7 +165,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela27.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela27.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Denim</h5>
                   <p class="card-text">Resistente y versátil, clásico para prendas informales como jeans y chaquetas.</p>
@@ -160,7 +176,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/tela5.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/tela5.jpg" class="card-img-top" alt="tela shop">
                 <div class="card-body">
                   <h5 class="card-title">Terciopelo</h5>
                   <p class="card-text">Suave y opulento, ideal para prendas de invierno y accesorios elegantes.</p>
@@ -182,7 +198,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/patron4.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/patron4.jpg" class="card-img-top" alt="patron shop">
                 <div class="card-body">
                   <h5 class="card-title">Vestido floreado</h5>
                   <p class="card-text">Vestido corto floreado con mangas princesa y escote cerrado</p>
@@ -193,7 +209,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/patron1.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/patron1.jpg" class="card-img-top" alt="patron shop">
                 <div class="card-body">
                   <h5 class="card-title">Vestido largo</h5>
                   <p class="card-text">Vestido largo con espalda abierta y volados en las mangas</p>
@@ -204,7 +220,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/patron2.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/patron2.jpg" class="card-img-top" alt="patron shop">
                 <div class="card-body">
                   <h5 class="card-title">Blusa</h5>
                   <p class="card-text">Blusa al cuerpo con pinzas</p>
@@ -215,7 +231,7 @@
           <div class="col">
             <div class="card cardShop border-0 bg-transparent">
               <a href="#top">
-                <img src="./../assets/img/patron3.jpg" class="card-img-top" alt="telaShop">
+                <img src="./../assets/img/patron3.jpg" class="card-img-top" alt="patron shop">
                 <div class="card-body">
                   <h5 class="card-title">Vestido largo ajustado</h5>
                   <p class="card-text">Vestido largo sin mangas con corset</p>
@@ -241,10 +257,11 @@
             <div>
                 <h4>Enlaces Rápidos</h4>
                 <ul>
-                  <li><a href="./../index.html">Home</a></li>
-                    <li><a href="#top">Novedades</a></li>
-                    <li><a href="#top">Last Chance</a></li>
-                    <li><a href="#top">Contacto</a></li>
+                  <li><a href="./../index.html">Actualidad</a></li>
+                  <li><a href="./pages/inspo.html">Inspo</a></li>
+                  <li><a href="#top">Shop</a></li>
+                  <li><a href="./pages/cursos.html">Cursos</a></li>
+                  <li><a href="./pages/nosotros.html">Nosotros</a></li>
                 </ul>
             </div>
             <div>
@@ -261,19 +278,19 @@
     <section class="footerLogos">
         <div class="cajaLogo">
           <a href="./../index.html">
-            <img src="./../assets/img/CRèER.png" alt="logoPagina">
+            <img src="./../assets/img/CRèER.png" alt="logo CRèER">
           </a>
         </div>
         <div class="cajaLogos">
-            <a href="https://www.instagram.com/">
-                <img src="./../assets/img/instagram.png" alt="instagram">
-            </a>
-            <a href="https://www.facebook.com/">
-                <img src="./../assets/img/facebook.png" alt="facebook">
-            </a>
-            <a href="https://web.whatsapp.com/">
-                <img src="./../assets/img/whatsapp.png" alt="whatsapp">
-            </a>
+          <a href="https://www.instagram.com/">
+            <img src="./../assets/img/instagram.png" alt="logo instagram">
+          </a>
+          <a href="https://www.facebook.com/">
+            <img src="./../assets/img/facebook.png" alt="logo facebook">
+          </a>
+          <a href="https://web.whatsapp.com/">
+            <img src="./../assets/img/whatsapp.png" alt="logo whatsapp">
+          </a>
         </div>
         <p>© 2024 Creèr. Todos los derechos reservados.</p>
       </section>

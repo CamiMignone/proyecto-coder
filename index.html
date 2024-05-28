@@ -14,7 +14,6 @@
   <!-- Link animation -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Link CSS -->
-  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/main.css">
   <!-- Head -->
   <link rel="icon" type="image/png" href="./assets/img/LOGO.png">
@@ -44,11 +43,25 @@
             <li class="nav-item">
               <a class="nav-link" href="./pages/inspo.html">Inspo</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./pages/shop.html">Shop</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./pages/shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./pages/shop.html">Shop</a></li>
+                <li><a class="dropdown-item" href="./pages/shop.html">Novedades</a></li>
+                <li><a class="dropdown-item" href="./pages/shop.html">Last chance</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./pages/cursos.html">Cursos</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./pages/cursos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./pages/cursos.html">Cursos</a></li>
+                <li><a class="dropdown-item" href="./pages/shop.html">Carreras</a></li>
+                <li><a class="dropdown-item" href="./pages/shop.html">Trabajos</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
@@ -166,8 +179,8 @@
           <ul>
             <li><a href="#top">Actualidad</a></li>
             <li><a href="./pages/inspo.html">Inspo</a></li>
-            <li><a target="_blank" href="./pages/shop.html">Shop</a></li>
-            <li><a target="_blank" href="./pages/cursos.html">Cursos</a></li>
+            <li><a href="./pages/shop.html">Shop</a></li>
+            <li><a href="./pages/cursos.html">Cursos</a></li>
             <li><a href="./pages/nosotros.html">Nosotros</a></li>
           </ul>
         </div>
