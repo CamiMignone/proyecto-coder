@@ -241,7 +241,7 @@ header .navbar .cajaHeader .menuNav ul li a:hover {
   height: 500px;
   object-fit: cover;
 }
-.mainShop .carousel .carousel-inner .carousel-item h5 {
+.mainShop .carousel .carousel-inner .carousel-item h3 {
   margin: 0%;
   position: absolute;
   top: 47%;
